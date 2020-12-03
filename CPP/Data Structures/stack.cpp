@@ -13,41 +13,45 @@ class Stack {
         void isEmpty();
 };
 
-void  Stack:: isEmpty() {
-    if (top == -1) {
-        cout<<"Empty \n";
-    }
-    else {
-        cout<<"Not empty \n";
-    }
-}
 
-int Stack:: pop() {
-    if (top <= -1) {
-        cout<<"Stack underflow \n";
-    }
-    else {
-        int temp = a[top--];
-        cout<<"Element deleted "<<temp<<" \n";
-    }
-    return 0;
-}
-
-int Stack:: push(int x) {
+int Stack::push(int x) {
     if (top >= 10) {
-        cout << "Stack overflow \n";
+        cout << "Stack overflow\n";
     }
     else {
         a[++top] = x;
-        cout<<"Element inserted \n";
+        cout << "Element inserted: "<<a[top]<<"\n";
     }
     return 0;
 }
 
-int main() {
-    Stack s;
-    s.push(5);
-    s.isEmpty();
-    s.pop();
-    s.isEmpty();
+void Stack::isEmpty() {
+    if (top == -1){
+        cout << "Stack is empty\n";
+    }
+    else {
+        cout <<"Stack is not empty\n";
+    }
+}
+
+int Stack::pop() {
+    if (top == -1) {
+        cout << "Stack underflow\n";
+    }
+    else {
+        int temp = a[top--];
+        cout << "Element popped: "<<temp<<"\n";
+    }
+    return 0;
+}
+
+int main () {
+    Stack S;
+    S.push(10);
+    S.isEmpty();
+    S.push(15);
+    S.pop();
+    S.isEmpty();
+    S.pop();
+    S.isEmpty();
 }
