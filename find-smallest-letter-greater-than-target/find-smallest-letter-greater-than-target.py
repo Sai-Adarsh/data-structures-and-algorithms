@@ -3,7 +3,6 @@ class Solution:
         
         left = 0
         right = len(letters) - 1
-        
         while left < right:
             curr = left + (right - left) // 2
             if letters[curr] > target:
