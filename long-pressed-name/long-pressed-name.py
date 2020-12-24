@@ -6,6 +6,7 @@ class Solution:
             return True
         if len(name) > len(typed):
             return False
+        
         i = 0
         j = 0
         
@@ -14,6 +15,8 @@ class Solution:
                 i += 1
             elif j == 0 or typed[j] != typed[j - 1]:
                 return False
-​
             j += 1
+        
         return i == len(name)
+            
+            
