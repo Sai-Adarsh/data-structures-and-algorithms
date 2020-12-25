@@ -15,5 +15,7 @@ class Solution:
             right = DFS(root.right)
             self.ans += abs(left) + abs(right)
             return root.val + left + right - 1
+            
+            
         DFS(root)
         return self.ans
