@@ -3,14 +3,15 @@ class Solution:
         left = 0
         right = 0
         import sys
-        minimum = sys.maxsize
-        val_sum = 0
-        
+        max_length = sys.maxsize
+        curr_sum = 0
+​
         while right < len(nums):
-            val_sum += nums[right]
-            while val_sum >= s:
-                val_sum -= nums[left]
-                minimum = min(minimum, right - left + 1)
+            curr_sum += nums[right]
+            while curr_sum >= s:
+                max_length = min(max_length, right - left + 1)
+                curr_sum -= nums[left]
                 left += 1
             right += 1
-        return minimum if minimum != sys.maxsize else 0
+​
+        return max_length if max_length != sys.maxsize else 0
