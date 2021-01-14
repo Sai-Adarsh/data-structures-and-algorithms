@@ -1,3 +1,4 @@
+[Discussion Post (created on 14/0/2021 at 7:8)](https://leetcode.com/problems/number-of-islands/submissions/)  
 <h2>200. Number of Islands</h2><h3>Medium</h3><hr><div><p>Given an <code>m x n</code> 2d <code>grid</code> map of <code>'1'</code>s (land) and <code>'0'</code>s (water), return <em>the number of islands</em>.</p>
 
 <p>An <strong>island</strong> is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.</p>
