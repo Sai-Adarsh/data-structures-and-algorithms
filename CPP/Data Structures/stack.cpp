@@ -1,57 +1,36 @@
 #include <iostream>
+#include <vector>
+#include <algorithm>
+#include <bits/stdc++.h>
+
 using namespace std;
 
-class Stack {
-    int top;
-    public:
-        int a[10];
-        Stack() {
-            top = -1;
-        }
-        int push(int x);
-        int pop();
-        void isEmpty();
+class StackOps {
+	public:
+		bool isEmpty(stack <int> result);
+		void stackPush(stack <int> &result, int val);
+		void stackPop(stack <int> &result);
 };
 
-
-int Stack::push(int x) {
-    if (top >= 10) {
-        cout << "Stack overflow\n";
-    }
-    else {
-        a[++top] = x;
-        cout << "Element inserted: "<<a[top]<<"\n";
-    }
-    return 0;
+bool StackOps::isEmpty(stack <int> result) {
+	return result.empty();
 }
 
-void Stack::isEmpty() {
-    if (top == -1){
-        cout << "Stack is empty\n";
-    }
-    else {
-        cout <<"Stack is not empty\n";
-    }
+
+void StackOps::stackPush(stack <int> &result, int val) {
+	result.push(val);
 }
 
-int Stack::pop() {
-    if (top == -1) {
-        cout << "Stack underflow\n";
-    }
-    else {
-        int temp = a[top--];
-        cout << "Element popped: "<<temp<<"\n";
-    }
-    return 0;
+void StackOps::stackPop(stack <int> &result) {
+	result.pop();
 }
 
-int main () {
-    Stack S;
-    S.push(10);
-    S.isEmpty();
-    S.push(15);
-    S.pop();
-    S.isEmpty();
-    S.pop();
-    S.isEmpty();
+int main() {
+	stack <int> result;
+	StackOps obj;
+	cout<<result.size();
+	obj.stackPush(result, 6);
+	cout<<result.size();
+	obj.stackPop(result);
+	cout<<result.size();
 }
