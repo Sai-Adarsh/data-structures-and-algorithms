@@ -1,3 +1,4 @@
+[Discussion Post (created on 10/1/2021 at 4:45)](https://leetcode.com/problems/distribute-coins-in-binary-tree/solution/)  
 <h2>979. Distribute Coins in Binary Tree</h2><h3>Medium</h3><hr><div><p>You are given the <code>root</code> of a binary tree with <code>n</code> nodes where each <code>node</code> in the tree has <code>node.val</code> coins and there are <code>n</code> coins total.</p>
 
 <p>In one move, we may choose two adjacent nodes and move one coin from one node to another. (A move may be from parent to child, or from child to parent.)</p>
