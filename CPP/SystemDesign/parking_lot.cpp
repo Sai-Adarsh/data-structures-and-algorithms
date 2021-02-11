@@ -7,7 +7,14 @@
 
 using namespace std;
 
-class floors {
+class payment {
+	public:
+		string printRandom() {
+			return "Payment successful\n";
+		}
+};
+
+class floors : public payment {
 	public:
 		void addToFloor(string car_type, int time, map <string, vector<int>> &floorData) {
 			floorData[car_type].push_back(time);
@@ -21,8 +28,9 @@ class floors {
 		
 		void popCar(string car_type, int time, map <string, vector <int>> &floorData) {
 			auto indexing = find(floorData[car_type].begin(), floorData[car_type].end(), time);
-			
+			payment *P = new payment();
 			if (indexing != floorData[car_type].end()) {
+				cout<<P->printRandom();
 				floorData[car_type].erase(indexing);
 			}
 		}
