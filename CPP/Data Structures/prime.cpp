@@ -1,17 +1,28 @@
 #include <iostream>
-using namespace std;
+#include <vector>
+#include <algorithm>
+#include <bits/stdc++.h>
 
-int primeNumber(int n){
-	for (int i = 2; i < n / 2; i++) {
-		if (n % i == 0) {
-			return false;
-		}
-	}
-	return true;
-}
+using namespace std;
+class BruteForce {
+	public:
+		string isPrime(int &n) {
+			int i = 2;
+			while (i < n) {
+				if (n % i != 0) {
+					i++;	
+				}
+				else {
+					return "Not prime";
+				}
+			}
+			return "Prime";
+		}	
+};
+
 
 int main() {
-	int n;
-	cin>>n;
-	cout<<primeNumber(n);
+	int n = 7;
+	BruteForce B;
+	cout<<B.isPrime(n);
 }
