@@ -1,3 +1,4 @@
+[Discussion Post (created on 17/1/2021 at 20:54)](https://leetcode.com/problems/flood-fill/discuss/1069943/Clean-DFS-or-Python-or-Beats-90)  
 <h2>733. Flood Fill</h2><h3>Easy</h3><hr><div><p>
 An <code>image</code> is represented by a 2-D array of integers, each integer representing the pixel value of the image (from 0 to 65535).
 </p><p>
