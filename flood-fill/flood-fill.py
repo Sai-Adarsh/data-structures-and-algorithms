@@ -20,8 +20,5 @@ class Solution:
             return image
             
         visited = set()
-        for i in range(len(image)):
-            for j in range(len(image[0])):
-                if i == sr and j == sc:
-                    return DFS(image, i, j, image[i][j], newColor)
+        return DFS(image, sr, sc, image[sr][sc], newColor)
                     
