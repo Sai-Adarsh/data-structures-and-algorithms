@@ -1,3 +1,4 @@
+[Discussion Post (created on 9/2/2021 at 0:22)](https://leetcode.com/problems/non-overlapping-intervals/submissions/)  
 <h2>435. Non-overlapping Intervals</h2><h3>Medium</h3><hr><div><p>Given a collection of intervals, find the minimum number of intervals you need to remove to make the rest of the intervals non-overlapping.</p>
 
 <ol>
