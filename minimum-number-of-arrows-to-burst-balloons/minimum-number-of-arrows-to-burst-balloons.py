@@ -3,15 +3,13 @@ class Solution:
         if not points:
             return 0
         points.sort(key = lambda x: x[1])
-        print(points)
         
         arrow = 1
-        end = points[0][1]
-        
-        i = 1
-        while i < len(points):
-            if points[i][0] > end:
+        left = 0
+        right = 1
+        while right < len(points):
+            if points[right][0] > points[left][1]:
                 arrow += 1
-                end = points[i][1]
-            i += 1
+                left = right
+            right += 1
         return arrow
