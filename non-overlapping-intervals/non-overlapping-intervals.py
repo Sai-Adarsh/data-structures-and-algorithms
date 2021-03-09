@@ -1,6 +1,5 @@
 class Solution:
     def eraseOverlapIntervals(self, intervals: List[List[int]]) -> int:
-    
         intervals.sort(key = lambda x: x[0])
         
         left = 0
@@ -18,4 +17,5 @@ class Solution:
                 count += 1
                 left = right
                 right += 1
+            
         return count
