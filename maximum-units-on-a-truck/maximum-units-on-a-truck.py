@@ -5,10 +5,11 @@ class Solution:
 
         for i in boxTypes:
             if i[0] > truckSize:
-                units_to_be_added = min(i[0], truckSize)
-                res += units_to_be_added * i[1]
+                res += min(truckSize, i[0]) * i[1]
+                truckSize = 0
                 break
             else:
-                truckSize = truckSize - i[0]
-                res += i[0] * i[1]
+                res += (i[0] * i[1])
+                truckSize -= i[0]
+
         return res
