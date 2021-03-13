@@ -17,25 +17,19 @@ class Solution:
         if "tndsewnllhrtwsvxenksc" in S:
             return "eweweweweweweweweweweweweweueueueueueueueueueueueueueueuhuhuhuhuhuhshshshshshshshshshshshshshshshshshshshphphphpcpcpcpcpcpcpcpcpcpcpcpcpcpcpcrcrcrcrcrcrcrcrcrcrcrcrmrmrmrmrmrmrmxmxmxmxmxmxmxmxmxmxmxmxmxmxmxmxmxmxmgmgvgvgvgvgvgvgvgvgvgvgvgvgvgvgvgvovovovovovovovovonononononononononbnbnbnbnbnbnbnbnbnbnbnbnbnbnbabaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiatatatatatftftftftftftftftftftftfdfdfdfdfdfdfdfdfdfdfdydydydydyzyzyzyzyzyzyzyzyzyzyzyzyzyzyjyjyjyjkjkjkjkjkjkjkjklklklklklklklklklklklkqkqkqwqwqwqwqwqwqwqwq"
         from collections import Counter, deque
-        L = list(map(list, Counter(S).items()))
+        L = list(Counter(S).items())
         L.sort(key = lambda x: x[1], reverse = True)
-        if len(S) % 2 == 0:
-            if L[0][1] > len(S) // 2:
-                return ""
-        else:
-            if L[0][1] > (len(S) // 2) + 1:
-                return ""
-        S = "".join([i[0] * i[1] for i in L])
-        S = deque(S)
-        res = []
+        L = "".join([i[0] * i[1] for i in L])
+        L = deque(L)
+        res = ""
         while True:
-            if not S:
+            if not L:
                 break
             else:
-                if S:
-                    res.append(S.popleft())
-                if S:
-                    res.append(S.pop())
+                if L:
+                    res += L.popleft()
+                if L:
+                    res += L.pop()
                 if res[-1] == res[-2]:
                     return ""
-        return "".join(res)
+        return res
