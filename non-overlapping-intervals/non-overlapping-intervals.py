@@ -6,6 +6,7 @@ class Solution:
         right = 1
         count = 0
         
+        
         while right < len(intervals):
             if intervals[left][1] <= intervals[right][0]:
                 left = right
@@ -17,5 +18,4 @@ class Solution:
                 count += 1
                 left = right
                 right += 1
-            
         return count
