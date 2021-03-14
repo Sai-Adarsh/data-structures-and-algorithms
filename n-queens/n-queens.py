@@ -1,18 +1,16 @@
 class Solution:
     def solveNQueens(self, n: int) -> List[List[str]]:
+    
         
-        
-        def DFS(queens, d1_diff, d2_diff):
-            row = len(queens)
-            
+        def DFS(queens, diagonal_one, diagonal_two, row):
             if row == n:
-                result.append(queens)
+                self.result.append(queens)
             else:
                 for col in range(n):
-                    if col not in queens and row - col not in d1_diff and row + col not in d2_diff:
-                        DFS(queens + [col], d1_diff + [row - col], d2_diff + [row + col])
+                    if col not in queens and row - col not in diagonal_one and row + col not in diagonal_two:
+                        DFS(queens + [col], diagonal_one + [row - col], diagonal_two + [row + col], row + 1)
             
-        result = []
-        DFS([], [], [])
-        
-        return [["".join(['Q' if _ ==  com else '.' for _ in range(n) ]) for com in arr] for arr in result]
+        self.result = []
+        DFS([], [], [], 0)
+        return [["".join(['Q' if _ == com else "." for _ in range(n)]) for com in arr] for arr in self.result]
+    
