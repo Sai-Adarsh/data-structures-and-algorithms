@@ -1,5 +1,3 @@
-[Discussion Post (created on 14/2/2021 at 21:21)](https://leetcode.com/problems/letter-case-permutation/submissions/)  
-[Discussion Post (created on 16/0/2021 at 6:32)](https://leetcode.com/problems/letter-case-permutation/discuss/1018821/Python-Itertools-2-Liner)  
 <h2>784. Letter Case Permutation</h2><h3>Medium</h3><hr><div><p>Given a string S, we can transform every letter individually&nbsp;to be lowercase or uppercase to create another string.</p>
 
 <p>Return <em>a list of all possible strings we could create</em>. You can return the output&nbsp;in <strong>any order</strong>.</p>
