@@ -1,10 +1,12 @@
 class Solution:
     def maxProfit(self, prices: List[int], fee: int) -> int:
-        buy, sell = 0, - prices[0]
+        cash_profit_summa_irundha, cash_profit_vitha = 0, - prices[0]
         
-        i = 1
+        i = 0
+        
         while i < len(prices):
-            buy = max(buy, sell + prices[i] - fee)
-            sell = max(sell, buy - prices[i])
+            cash_profit_summa_irundha = max(cash_profit_summa_irundha, cash_profit_vitha + prices[i] - fee)
+            cash_profit_vitha = max(cash_profit_vitha, cash_profit_summa_irundha - prices[i])
             i += 1
-        return buy
+        
+        return cash_profit_summa_irundha
