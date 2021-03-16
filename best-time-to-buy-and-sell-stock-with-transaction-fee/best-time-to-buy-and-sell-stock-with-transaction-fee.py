@@ -1,9 +1,10 @@
 class Solution:
     def maxProfit(self, prices: List[int], fee: int) -> int:
-        cash = 0
-        hold = - prices[0]
+        buy, sell = 0, - prices[0]
         
-        for i in range(1, len(prices)):
-            cash = max(cash, hold + prices[i] - fee)
-            hold = max(hold, cash - prices[i])
-        return cash
+        i = 1
+        while i < len(prices):
+            buy = max(buy, sell + prices[i] - fee)
+            sell = max(sell, buy - prices[i])
+            i += 1
+        return buy
