@@ -8,6 +8,7 @@ class Solution:
     def rightSideView(self, root: TreeNode) -> List[int]:
         if not root:
             return
+        tree = root
         from collections import deque
         q = deque([root])
         curr_level = []
@@ -23,4 +24,5 @@ class Solution:
                 if node.right:
                     q.append(node.right)
             all_levels.append(curr_level[-1])
+            
         return all_levels
