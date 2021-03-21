@@ -2,13 +2,14 @@ class Solution:
     def brokenCalc(self, X: int, Y: int) -> int:
         if X > Y:
             return X - Y
-        result = 0
+        res = 0
         while Y > X:
-            result += 1
             if Y % 2 == 0:
+                res += 1
                 Y //= 2
             else:
+                res += 1
                 Y += 1
-        return result + (X - Y)
-                
-        
+        return res + (X - Y)
+                    
+                    
