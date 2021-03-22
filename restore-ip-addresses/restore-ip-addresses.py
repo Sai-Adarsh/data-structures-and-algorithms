@@ -1,24 +1,26 @@
 class Solution:
     def restoreIpAddresses(self, s: str) -> List[str]:
         
-        return self.backTracking([], [], 0, s)
+        return self.backTracking([], [], s, 0)
         
-    def backTracking(self, res, curr_path, address_count, s):
-        
+    def backTracking(self, res, curr_path, s, start):
         # our goal
         # base case
-        if address_count == 4 and (len(s) == 0 or not s):
+        if start == 4 and not s:
             res.append(".".join(curr_path))
             return
         
-        if len(s) > (4 - address_count) * 3 or len(s) < (4 - address_count):
+        # our constraints
+        # recursive case
+        if len(s) > (4 - start) * 3 or len(s) < (4 - start):
             return
-        # our constraint
-        for splitter in range(min(3 if s[0] != "0" else 1, len(s))):
-            sub_string = s[:splitter + 1]
-            if int(sub_string) < 256:
-                # our choice:
-                self.backTracking(res, curr_path + [s[: splitter + 1]], address_count + 1, s[splitter + 1 :])
         
+        # our choice
+        for i in range(min(3 if s[0] != "0" else 1, len(s))):
+            sub_sting = s[:i + 1]
+            if int(sub_sting) < 256:
+                self.backTracking(res, curr_path + [sub_sting], s[i + 1:], start + 1)
         
         return res
+        
+        
