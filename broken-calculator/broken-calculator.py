@@ -11,5 +11,3 @@ class Solution:
                 res += 1
                 Y += 1
         return res + (X - Y)
-                    
-                    
