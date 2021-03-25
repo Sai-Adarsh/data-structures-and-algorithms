@@ -11,9 +11,10 @@ class Solution:
         self.L = []
         def DFS(root):
             if not root:
-                return
+                return           
             DFS(root.left)
             self.L.append(root.val)
             DFS(root.right)
+        
         DFS(root)
         return self.L
