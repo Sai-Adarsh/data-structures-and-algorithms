@@ -18,10 +18,11 @@ class Solution:
             self.L.append(root)
             DFS(root.left)
             DFS(root.right)
+            
         DFS(root)
-        first = TreeNode(self.L[0])
-        final = root
-        
-        for _ in range(len(self.L) - 1):
-            self.L[_].left, self.L[_].right = None, self.L[_ + 1]
-        return final
+        for i in range(len(self.L)):
+            if i == len(self.L) - 1:
+                self.L[i].left, self.L[i].right = None, None
+            else:
+                self.L[i].left, self.L[i].right = None, self.L[i + 1]
+            
