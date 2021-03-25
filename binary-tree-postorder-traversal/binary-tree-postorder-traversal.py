@@ -15,5 +15,6 @@ class Solution:
             DFS(root.left)
             DFS(root.right)
             self.L.append(root.val)
+        
         DFS(root)
         return self.L
