@@ -1,3 +1,4 @@
+[Discussion Post (created on 27/2/2021 at 0:9)](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/submissions/)  
 <h2>106. Construct Binary Tree from Inorder and Postorder Traversal</h2><h3>Medium</h3><hr><div><p>Given two integer arrays <code>inorder</code> and <code>postorder</code> where <code>inorder</code> is the inorder traversal of a binary tree and <code>postorder</code> is the postorder traversal of the same tree, construct and return <em>the binary tree</em>.</p>
 
 <p>&nbsp;</p>
