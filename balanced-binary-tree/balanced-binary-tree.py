@@ -11,10 +11,12 @@ class Solution:
         def DFS(root):
             if not root:
                 return 0
+            
             left = DFS(root.left)
             right = DFS(root.right)
-            if abs(left - right ) > 1:
+            if abs(left - right) > 1:
                 self.ans = False
             return max(left, right) + 1
+        
         DFS(root)
         return self.ans
