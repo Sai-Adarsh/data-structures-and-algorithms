@@ -13,21 +13,20 @@ class Solution:
                 return
             
             curr_sum = prev_sum + root.val
+            if curr_sum - sum in prefix_sum:
+                self.count += prefix_sum[curr_sum - sum]
             
-            x = curr_sum - sum
-            
-            if x in prefix_sum:
-                self.count += prefix_sum[x]
-            if curr_sum in prefix_sum:
-                prefix_sum[curr_sum] += 1
-            else:
+            if curr_sum not in prefix_sum:
                 prefix_sum[curr_sum] = 1
+            else:
+                prefix_sum[curr_sum] += 1
+            
             DFS(root.left, curr_sum)
             DFS(root.right, curr_sum)
             prefix_sum[curr_sum] -= 1
-
-        
-        self.count = 0
-        prefix_sum = {0: 1}
+                      
+        self.count = 0                
+        prefix_sum = {0: 1}       
         DFS(root, 0)
         return self.count
+        
