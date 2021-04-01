@@ -7,14 +7,17 @@
 class Solution:
     def sortedArrayToBST(self, nums: List[int]) -> TreeNode:
         
+        
         return self.backTracking(nums, 0, len(nums) - 1, TreeNode())
+    
     
     def backTracking(self, nums, left, right, root):
         while left <= right:
             curr = left + (right - left) // 2
             root = TreeNode(nums[curr])
+            # nums = [-10, -3]
             root.left = self.backTracking(nums, left, curr - 1, root.left)
             root.right = self.backTracking(nums, curr + 1, right, root.right)
             return root
-    
-    
+        
+    # aw
