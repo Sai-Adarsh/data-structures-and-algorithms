@@ -12,12 +12,9 @@ class Solution:
     def isValid(self, num, i, j):
         for row in range(9):
             if self.board[row][j]==num and row!=i:
-                print(self.board[row][j],row,j)
                 return False
-            
-        #column check
-        for col in range(9):
-            if self.board[i][col]==num and col!=j:
+    
+            if self.board[i][row]==num and row!=j:
                 return False
             
         sub_i = (i//3)*3
