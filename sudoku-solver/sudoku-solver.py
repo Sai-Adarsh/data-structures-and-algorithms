@@ -13,8 +13,7 @@ class Solution:
                             board[i][j] = "."
                     return False
         return True
-                        
-                        
+    
     def isValid(self, board, row, col, num):
         for i in range(9):
             if board[i][col] == num:
