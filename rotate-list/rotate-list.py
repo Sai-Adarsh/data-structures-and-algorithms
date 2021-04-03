@@ -5,12 +5,11 @@
 #         self.next = next
 class Solution:
     def rotateRight(self, head: ListNode, k: int) -> ListNode:
-        
         if not head:
             return
         
         from collections import deque
-        L = deque()
+        L = deque([])
         
         root = head
         while root:
@@ -18,8 +17,8 @@ class Solution:
                 return
             L.append(root)
             root = root.next
-        
-        for i in range(k % len(L)):
+            
+        for _ in range(k % len(L)):
             L.appendleft(L.pop())
             
         root = head = L.popleft()
