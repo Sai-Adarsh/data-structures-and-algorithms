@@ -1,3 +1,4 @@
+[Discussion Post (created on 5/3/2021 at 16:47)](https://leetcode.com/problems/maximum-frequency-stack/submissions/)  
 <h2>895. Maximum Frequency Stack</h2><h3>Hard</h3><hr><div><p>Design a stack-like data structure to push elements to the stack and pop the most frequent element from the stack.</p>
 
 <p>Implement the <code>FreqStack</code> class:</p>
