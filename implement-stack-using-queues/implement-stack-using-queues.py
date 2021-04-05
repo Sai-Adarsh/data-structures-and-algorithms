@@ -4,14 +4,14 @@ class MyStack:
         """
         Initialize your data structure here.
         """
-        self.q = collections.deque([])
-        
-        
+        self.q = []
+
     def push(self, x: int) -> None:
         """
         Push element x onto stack.
         """
         self.q.append(x)
+        
 
     def pop(self) -> int:
         """
