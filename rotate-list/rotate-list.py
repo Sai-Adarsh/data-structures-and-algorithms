@@ -7,10 +7,9 @@ class Solution:
     def rotateRight(self, head: ListNode, k: int) -> ListNode:
         if not head:
             return
-        
         from collections import deque
-        L = deque([])
         
+        L = deque([])
         root = head
         while root:
             if not root:
@@ -26,6 +25,9 @@ class Solution:
         while L:
             root.next = L.popleft()
             root = root.next
-        
         root.next = None
         return head
+            
+        
+        
+        
