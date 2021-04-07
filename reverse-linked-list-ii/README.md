@@ -1,3 +1,4 @@
+[Discussion Post (created on 7/3/2021 at 20:35)](https://leetcode.com/problems/reverse-linked-list-ii/submissions/)  
 <h2>92. Reverse Linked List II</h2><h3>Medium</h3><hr><div><p>Reverse a linked list from position <em>m</em> to <em>n</em>. Do it in one-pass.</p>
 
 <p><strong>Note:&nbsp;</strong>1 ≤ <em>m</em> ≤ <em>n</em> ≤ length of list.</p>
