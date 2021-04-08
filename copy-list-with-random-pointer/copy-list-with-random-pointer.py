@@ -24,6 +24,8 @@ class Solution:
             
         root = head
         while root:
+            if not root:
+                return
             node = hash_map[root]
             node.next = hash_map[root.next]
             node.random = hash_map[root.random]
