@@ -9,22 +9,24 @@ class Solution:
             return
         
         count = 0
-        
         root = head
+        
         while root:
             if not root:
                 return
             count += 1
             root = root.next
-            
+        
         n = count - n
-        count2 = 0
         root = head
+        count2 = 0
+        if count == count - n:
+            return root.next
+        
         while root:
-            if count == count - n:
-                return root.next
             if count2 + 1 == n:
                 root.next = root.next.next
             count2 += 1
             root = root.next
+        
         return head
