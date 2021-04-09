@@ -7,15 +7,12 @@
 class Solution:
     def pathSum(self, root: TreeNode, sum: int) -> int:
         
-        
         def DFS(root, prev_sum):
             if not root:
                 return
-            
             curr_sum = prev_sum + root.val
             if curr_sum - sum in prefix_sum:
                 self.count += prefix_sum[curr_sum - sum]
-            
             if curr_sum not in prefix_sum:
                 prefix_sum[curr_sum] = 1
             else:
@@ -24,9 +21,9 @@ class Solution:
             DFS(root.left, curr_sum)
             DFS(root.right, curr_sum)
             prefix_sum[curr_sum] -= 1
-                      
-        self.count = 0                
-        prefix_sum = {0: 1}       
+            
+            
+        self.count = 0
+        prefix_sum = {0: 1}
         DFS(root, 0)
         return self.count
-        
