@@ -8,23 +8,22 @@ class Solution:
     def minDepth(self, root: TreeNode) -> int:
         if not root:
             return 0
+        
         from collections import deque
         q = deque([root])
-        curr_level = []
         all_levels = []
-        met = False
+        curr_level = []
+        
         while q:
             curr_level = []
-            
             for _ in range(len(q)):
                 node = q.popleft()
                 curr_level.append(node.val)
                 if not node.left and not node.right:
-                    met = True
+                    return len(all_levels) + 1
                 if node.left:
                     q.append(node.left)
                 if node.right:
                     q.append(node.right)
             all_levels.append(curr_level)
-            if met == True:
-                return len(all_levels)
+        return len(all_levels) + 1
