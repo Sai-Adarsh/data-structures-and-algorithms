@@ -22,9 +22,8 @@ class Solution:
                     q.append(node.left)
                 if node.right:
                     q.append(node.right)
-            if len(all_levels) % 2 != 0:
-                all_levels.append(curr_level[::-1])
-            else:
+            if len(all_levels) % 2 == 0:
                 all_levels.append(curr_level)
-                
+            else:
+                all_levels.append(curr_level[::-1])
         return all_levels
