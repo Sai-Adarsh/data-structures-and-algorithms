@@ -13,19 +13,18 @@ class Codec:
         :type root: TreeNode
         :rtype: str
         """
-        if not root:
-            return
         self.L = []
-        
         def DFS(root):
             if not root:
-                self.L.append('n')
+                self.L.append("n")
                 return
             self.L.append(str(root.val))
             DFS(root.left)
             DFS(root.right)
         DFS(root)
         return ", ".join(self.L)
+            
+        
 
     def deserialize(self, data):
         """Decodes your encoded data to tree.
@@ -33,12 +32,13 @@ class Codec:
         :type data: str
         :rtype: TreeNode
         """
-        if not data:
-            return
         self.L = data
+        if not self.L:
+            return
         self.L = self.L.split(", ")
+        
         def DFS():
-            if self.L[self.curr_pos] == 'n':
+            if self.L[self.curr_pos] == "n":
                 self.curr_pos += 1
                 return None
             root = TreeNode(int(self.L[self.curr_pos]))
@@ -46,7 +46,6 @@ class Codec:
             root.left = DFS()
             root.right = DFS()
             return root
-            
         self.curr_pos = 0
         return DFS()
 
