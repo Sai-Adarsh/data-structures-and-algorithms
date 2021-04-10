@@ -6,7 +6,8 @@
 #         self.right = right
 class Solution:
     def isValidBST(self, root: TreeNode) -> bool:
-        
+        if not root:
+            return
         self.L = []
         def DFS(root):
             if not root:
@@ -14,9 +15,11 @@ class Solution:
             DFS(root.left)
             self.L.append(root.val)
             DFS(root.right)
-            
+        
         DFS(root)
-        for i in range(len(self.L) - 1):
-            if self.L[i] >= self.L[i + 1]:
-                return False
+        for i in range(len(self.L)):
+            if i < len(self.L) - 1:
+                if self.L[i] >= self.L[i + 1]:
+                    return False
+        
         return True
