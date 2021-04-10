@@ -2,6 +2,7 @@ class Solution:
     def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
         
         
+        # stack problem
         from collections import deque
         window = []
         stack = deque([])
@@ -9,8 +10,7 @@ class Solution:
         for i in range(len(nums)):
             
             while stack and nums[stack[-1]] < nums[i]:
-                stack.pop()
-            
+                stack.pop()            
             
             stack.append(i)
             
@@ -21,3 +21,5 @@ class Solution:
                 window.append(nums[stack[0]])
                 
         return window
+        
+        
