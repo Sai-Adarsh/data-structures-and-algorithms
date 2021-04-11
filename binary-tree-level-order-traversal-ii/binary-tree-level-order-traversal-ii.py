@@ -22,6 +22,7 @@ class Solution:
                     q.append(node.left)
                 if node.right:
                     q.append(node.right)
+                    
             all_levels.append(curr_level)
-    
+            
         return all_levels[::-1]
