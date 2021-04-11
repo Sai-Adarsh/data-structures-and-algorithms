@@ -13,7 +13,6 @@ class Solution:
         curr_level = []
         all_levels = []
         
-        
         while q:
             curr_level = []
             for _ in range(len(q)):
@@ -23,6 +22,7 @@ class Solution:
                     q.append(node.left)
                 if node.right:
                     q.append(node.right)
+                    
             all_levels.append(curr_level)
-        
+            
         return all_levels
