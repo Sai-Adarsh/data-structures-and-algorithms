@@ -7,16 +7,19 @@
 class Solution:
     def widthOfBinaryTree(self, root: TreeNode) -> int:
         
-        self.level_dict = {}
+        if not root:
+            return 0
+        self.all_levels = {}
+        
         def DFS(root, level, from_top):
-            if root:
-                if level not in self.level_dict:
-                    self.level_dict[level] = [from_top]
-                else:
-                    self.level_dict[level].append(from_top)
-                DFS(root.left, level + 1, from_top * 2)
-                DFS(root.right, level + 1, (from_top * 2) + 1)
-        
-        
+            if not root:
+                return
+            if level not in self.all_levels:
+                self.all_levels[level] = [from_top]
+            else:
+                self.all_levels[level].append(from_top)
+            DFS(root.left, level + 1, from_top * 2)
+            DFS(root.right, level + 1, from_top * 2 + 1)
+            
         DFS(root, 0, 0)
-        return max([max(self.level_dict[level]) - min(self.level_dict[level]) + 1 for level in self.level_dict])
+        return max([max(each_level) - min(each_level) + 1 for each_level in self.all_levels.values()])
