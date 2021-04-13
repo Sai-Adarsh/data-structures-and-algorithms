@@ -12,10 +12,11 @@ class Solution:
         i = 0
         
         while i < len(nodes):
-            node, v = nodes[i]
+            node, level = nodes[i]
             i += 1
             if node:
-                nodes.append((node.left, 2 * v))
-                nodes.append((node.right, 2 * v + 1))
+                nodes.append((node.left, 2 * level))
+                nodes.append((node.right, 2 * level + 1))
                 
         return nodes[-1][1] == len(nodes)
+                
