@@ -3,7 +3,8 @@ class Solution:
         
         
         import sys
-        meh = 0 
+        
+        meh = 0
         msf = -sys.maxsize - 1
         
         for i in range(len(nums)):
