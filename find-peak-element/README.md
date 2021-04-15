@@ -1,3 +1,4 @@
+[Discussion Post (created on 15/3/2021 at 23:59)](https://leetcode.com/problems/find-peak-element/submissions/)  
 <h2>unknown-problem</h2><h3>Medium</h3><hr><div><p>A peak element is an element that is strictly greater than its neighbors.</p>
 
 <p>Given an integer array <code>nums</code>, find a peak element, and return its index. If&nbsp;the array contains multiple peaks, return the index to <strong>any of the peaks</strong>.</p>
