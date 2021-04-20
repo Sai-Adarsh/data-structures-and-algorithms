@@ -1,3 +1,4 @@
+[Discussion Post (created on 21/3/2021 at 1:40)](https://leetcode.com/problems/maximum-score-from-removing-substrings/submissions/)  
 <h2>1717. Maximum Score From Removing Substrings</h2><h3>Medium</h3><hr><div><p>You are given a string <code>s</code> and two integers <code>x</code> and <code>y</code>. You can perform two types of operations any number of times.</p>
 
 <ul>
