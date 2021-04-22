@@ -8,7 +8,6 @@ class Solution:
             else:
                 arr.append(i*i)
                 i += 1
-        print(arr)
         import sys
         @cache
         def backTracking(amount):
