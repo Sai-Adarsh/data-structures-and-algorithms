@@ -7,10 +7,8 @@ class FreqStack:
         self.maxFreq = 0
 
     def push(self, val: int) -> None:
-        
         temp = self.L[val] + 1
         self.L[val] = temp
-        
         if temp > self.maxFreq:
             self.maxFreq = temp
         if temp not in self.group:
@@ -18,13 +16,14 @@ class FreqStack:
         else:
             self.group[temp].append(val)
         
+
     def pop(self) -> int:
-        x = self.group[self.maxFreq].pop()
-        self.L[x] -= 1
+        temp = self.group[self.maxFreq].pop()
+        self.L[temp] -= 1
         
         if not self.group[self.maxFreq]:
             self.maxFreq -= 1
-        return x
+        return temp
 
 
 # Your FreqStack object will be instantiated and called as such:
