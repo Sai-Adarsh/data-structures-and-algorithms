@@ -1,3 +1,4 @@
+[Discussion Post (created on 4/4/2021 at 22:22)](https://leetcode.com/problems/surrounded-regions/discuss/1191379/Python-DFS-or-Coloring)  
 <h2>130. Surrounded Regions</h2><h3>Medium</h3><hr><div><p>Given an <code>m x n</code> matrix <code>board</code> containing <code>'X'</code> and <code>'O'</code>, <em>capture all regions surrounded by</em> <code>'X'</code>.</p>
 
 <p>A region is <strong>captured</strong> by flipping all <code>'O'</code>s into <code>'X'</code>s in that surrounded region.</p>
