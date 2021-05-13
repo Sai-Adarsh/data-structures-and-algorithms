@@ -1,20 +1,23 @@
 class Solution:
-    def longestCommonPrefix(self, strs: List[str]) -> str:
-        if len(strs) == 0: return ""
-        if len(strs) == 1: return(strs[0])
-        strs = sorted(strs, key=len)
-        result = []
-        #print(strs)
-        #print(strs[1:])
-        isPresentOnAllStrings = True
-        for i in range(len(strs[0])):
-            for j in strs[1:]:
-                #print(strs[0][i], j[i])
-                if strs[0][i] != j[i]:
-                    #rint("not present", strs[0][i])
-                    isPresentOnAllStrings = False
-                    return("".join(result))
-            if isPresentOnAllStrings == True:
-                result.append(strs[0][i])
-            isPresentOnAllStrings = True
-        return("".join(result))
+    def longestCommonPrefix(self, strs: List[str]) -> str:
+        if not strs:
+            return ""
+        strs.sort(key = len)
+        length = len(strs[0])
+        found = False
+        layer_2 = False
+        for i in range(length):
+            for j in range(1, len(strs)):
+                if strs[0][i] != strs[j][i]:
+                    #print("found", i)
+                    found = True
+                if found == True:
+                    layer_2 = True
+            if layer_2 == True:
+                break
+        if found == False:
+            return(strs[0])
+        elif i > 0:
+            return(strs[0][:i])
+        else:
+            return("")
