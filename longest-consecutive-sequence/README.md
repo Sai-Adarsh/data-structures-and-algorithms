@@ -1,3 +1,4 @@
+[Discussion Post (created on 16/4/2021 at 3:27)](https://leetcode.com/problems/longest-consecutive-sequence/discuss/1210793/Python-or-Intuitive)  
 <h2>128. Longest Consecutive Sequence</h2><h3>Hard</h3><hr><div><p>Given an unsorted array of integers <code>nums</code>, return <em>the length of the longest consecutive elements sequence.</em></p>
 
 <p>&nbsp;</p>
