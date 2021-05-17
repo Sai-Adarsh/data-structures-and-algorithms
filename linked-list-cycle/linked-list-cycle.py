@@ -16,4 +16,5 @@ class Solution:
                 return True
             head.val = "LeetCode"
             head = head.next
+            
         return False
