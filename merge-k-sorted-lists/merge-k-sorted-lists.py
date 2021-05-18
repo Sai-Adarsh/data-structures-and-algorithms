@@ -5,26 +5,30 @@
 #         self.next = next
 class Solution:
     def mergeKLists(self, lists: List[ListNode]) -> ListNode:
+        res = []
         if not lists:
             return
-        root = ListNode(None)
-        head = root
-        for i in lists:
-            while(i):
-                root.next = i
-                root = i
-                i = i.next
-        root = head.next
-        L = []
-        while(root):
-            L.append(root.val)
-            root = root.next
-        L = sorted(L)
+        heapq.heapify(res)
         
-        node = ListNode(None)
-        final = node
-        for i in L:
-            nn = ListNode(i)
-            node.next = nn
-            node = nn
-        return final.next
+        for head in lists:
+            if not head:
+                continue
+            else:
+                while head:
+                    if not head:
+                        break
+                    heapq.heappush(res, head.val)
+                    head = head.next
+        
+        res = [heapq.heappop(res) for _ in range(len(res))]
+        if not res:
+            return
+        first = ListNode(res[0])
+        final = first
+        
+        for _ in range(1, len(res)):
+            node = ListNode(res[_])
+            first.next = node
+            first = node
+            
+        return final
