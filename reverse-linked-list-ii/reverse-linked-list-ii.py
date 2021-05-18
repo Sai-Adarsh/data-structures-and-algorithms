@@ -8,19 +8,27 @@ class Solution:
         if not head:
             return
         
-        L = []
-        while head:
-            if not head:
-                return
-            L.append(head.val)
-            head = head.next
-    
-        L[:] = L[:m - 1] + L[m - 1: n][::-1] + L[n:]
-        first = ListNode(L[0])
-        final = first
+        h, p = head, None
+        for _ in range(m - 1):
+            p = h
+            h = h.next
+            
+        curr = h
+        prev = p
+        ahead = h.next
         
-        for i in range(1, len(L)):
-            node = ListNode(L[i])
-            first.next = node
-            first = node
-        return final
+        for _ in range(n - m + 1):
+            h.next = prev
+            prev = h
+            h = ahead
+            
+            if ahead:
+                ahead = ahead.next
+                
+        if p:
+            p.next = prev
+        else:
+            head = prev
+            
+        curr.next = h
+        return head
