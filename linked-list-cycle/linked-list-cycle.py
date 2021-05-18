@@ -9,12 +9,15 @@ class Solution:
         if not head:
             return
         
-        while head:
-            if not head:
+        slow = head
+        fast = head.next
+        
+        
+        while fast:
+            if not fast or not fast.next:
                 return
-            if head.val == "LeetCode":
+            if slow == fast:
                 return True
-            head.val = "LeetCode"
-            head = head.next
-            
+            slow = slow.next
+            fast = fast.next.next
         return False
