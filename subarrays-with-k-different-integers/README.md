@@ -1,3 +1,4 @@
+[Discussion Post (created on 18/4/2021 at 11:7)](https://leetcode.com/problems/subarrays-with-k-different-integers/discuss/1215277/Python-Sliding-Window-or-Set-%2B-HashMap)  
 <h2>992. Subarrays with K Different Integers</h2><h3>Hard</h3><hr><div><p>Given an array <code>nums</code> of positive integers, call a (contiguous, not necessarily distinct) subarray of <code>nums</code> <em>good</em> if the number of different integers in that subarray is exactly <code>k</code>.</p>
 
 <p>(For example, <code>[1,2,3,1,2]</code> has <code>3</code> different integers: <code>1</code>, <code>2</code>, and <code>3</code>.)</p>
