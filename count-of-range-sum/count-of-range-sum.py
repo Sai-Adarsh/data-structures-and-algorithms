@@ -2,18 +2,12 @@ class Solution:
     def countRangeSum(self, nums: List[int], lower: int, upper: int) -> int:
         
         
-        S = [0]
-        for i in nums:
-            S.append(S[-1] + i)
-        
-        P = sorted(S)
-        res = 0
-        
-        for x in S:
-            P.remove(x)
-            i = bisect.bisect_left(P, lower + x)
-            j = bisect.bisect_right(P, upper + x)
-            res += max(0, j - i)
-            
-        return res
-            
+        ans = prefix = 0 
+        seen = [0]
+        for x in nums: 
+            prefix += x 
+            lo = bisect_left(seen, prefix - upper)
+            hi = bisect_left(seen, prefix - lower + 1) 
+            ans += hi - lo
+            insort(seen, prefix)
+        return ans 
