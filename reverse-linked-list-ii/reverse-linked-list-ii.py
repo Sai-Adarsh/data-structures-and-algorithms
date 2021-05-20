@@ -4,21 +4,22 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def reverseBetween(self, head: ListNode, m: int, n: int) -> ListNode:
-        
+    def reverseBetween(self, head: ListNode, left: int, right: int) -> ListNode:
         if not head:
             return
-        
+        m = left
+        n = right
         h, p = head, None
         
         for _ in range(m - 1):
             p = h
             h = h.next
             
-        curr = h
         prev = p
+        curr = h
         ahead = curr.next
         
+        #we move prev and h
         for _ in range(n - m + 1):
             h.next = prev
             prev = h
@@ -27,6 +28,7 @@ class Solution:
             if ahead:
                 ahead = ahead.next
                 
+            
         if p:
             p.next = prev
         else:
