@@ -13,5 +13,5 @@ class Solution:
                 del intervals[i + 1]
             else:
                 i += 1
-                
+        
         return intervals
