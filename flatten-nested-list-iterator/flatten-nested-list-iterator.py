@@ -22,24 +22,23 @@
 
 class NestedIterator:
     def __init__(self, nestedList: [NestedInteger]):
-        
         def helper(nestedList):
-            for each in nestedList:
-                if each.isInteger():
-                    self.sequence.append(each.getInteger())
+            for each_ in nestedList:
+                if each_.isInteger():
+                    self.L.append(each_.getInteger())
                 else:
-                    helper(each.getList())
-                    
-        self.sequence = collections.deque()
+                    helper(each_.getList())
+        
+        
+        self.L = collections.deque()
         helper(nestedList)
+        
     
     def next(self) -> int:
-        return self.sequence.popleft()
-        
+        return self.L.popleft()
     
     def hasNext(self) -> bool:
-        return self.sequence
-         
+        return self.L
 
 # Your NestedIterator object will be instantiated and called as such:
 # i, v = NestedIterator(nestedList), []
