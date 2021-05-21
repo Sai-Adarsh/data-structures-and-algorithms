@@ -45,12 +45,12 @@ class Solution:
     def deserialize(self, s: str) -> NestedInteger:
         
         s = eval(s)
-        def getNestedInteger(nums):
+        def someFunc(nums):
             if type(nums) == int:
                 return NestedInteger(nums)
             ans = NestedInteger()
             for num in nums:
-                ans.add(getNestedInteger(num))
+                ans.add(someFunc(num))
             return ans
-        return getNestedInteger(s)
-        
+            
+        return someFunc(s)
