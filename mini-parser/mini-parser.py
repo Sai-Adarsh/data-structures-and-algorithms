@@ -45,12 +45,14 @@ class Solution:
     def deserialize(self, s: str) -> NestedInteger:
         
         s = eval(s)
-        def someFunc(nums):
-            if type(nums) == int:
-                return NestedInteger(nums)
-            ans = NestedInteger()
-            for num in nums:
-                ans.add(someFunc(num))
-            return ans
+        def backTracking(s):
             
-        return someFunc(s)
+            if type(s) == int:
+                return NestedInteger(s)
+        
+            res = NestedInteger()
+            for each in s:
+                res.add(backTracking(each))
+        
+            return res
+        return backTracking(s)
