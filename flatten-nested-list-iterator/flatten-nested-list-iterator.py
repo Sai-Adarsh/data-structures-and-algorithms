@@ -22,17 +22,18 @@
 
 class NestedIterator:
     def __init__(self, nestedList: [NestedInteger]):
-        def helper(nestedList):
-            for each_ in nestedList:
-                if each_.isInteger():
-                    self.L.append(each_.getInteger())
+        
+        def backTracking(nestedList):
+            
+            for each in nestedList:
+                if each.isInteger():
+                    self.L.append(each)
                 else:
-                    helper(each_.getList())
-        
-        
+                    backTracking(each.getList())
+            
+            
         self.L = collections.deque()
-        helper(nestedList)
-        
+        backTracking(nestedList)
     
     def next(self) -> int:
         return self.L.popleft()
