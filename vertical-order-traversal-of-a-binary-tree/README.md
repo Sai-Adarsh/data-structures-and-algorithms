@@ -1,3 +1,4 @@
+[Discussion Post (created on 26/4/2021 at 20:40)](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/discuss/1232316/Python-BFS-%2B-Vertical-Order-%2B-HashMap)  
 <h2>987. Vertical Order Traversal of a Binary Tree</h2><h3>Hard</h3><hr><div><p>Given the <code>root</code> of a binary tree, calculate the <strong>vertical order traversal</strong> of the binary tree.</p>
 
 <p>For each node at position <code>(row, col)</code>, its left and right children will be at positions <code>(row + 1, col - 1)</code> and <code>(row + 1, col + 1)</code> respectively. The root of the tree is at <code>(0, 0)</code>.</p>
