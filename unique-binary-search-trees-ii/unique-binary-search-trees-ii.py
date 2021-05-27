@@ -9,17 +9,17 @@ class Solution:
         
         
         def DFS(arr):
-            if not arr or len(arr) <= 0:
+
+            if len(arr) <= 0:
                 return [None]
             
             res = []
             for i in range(len(arr)):
                 left, right = DFS(arr[:i]), DFS(arr[i + 1:])
                 for l in left:
-                    for r in right:
-                        res.append(TreeNode(arr[i], l, r))
-                
+                    for j in right:
+                        res.append(TreeNode(arr[i], l, j))
+            
             return res
-        
         arr = [i for i in range(1, n + 1)]
         return DFS(arr)
