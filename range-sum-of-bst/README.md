@@ -1,3 +1,4 @@
+[Discussion Post (created on 27/4/2021 at 8:0)](https://leetcode.com/problems/range-sum-of-bst/discuss/1233145/Python-Prefix-Sum)  
 <h2>938. Range Sum of BST</h2><h3>Easy</h3><hr><div><p>Given the <code>root</code> node of a binary search tree, return <em>the sum of values of all nodes with a value in the range <code>[low, high]</code></em>.</p>
 
 <p>&nbsp;</p>
