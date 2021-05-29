@@ -6,20 +6,24 @@ class Solution:
         nums = list(set(nums))
         nums.sort()
         
+        if not nums:
+            return 0
+        
         if len(nums) == 1:
             return 1
         
         res = 0
         count = 0
-
+        
         for i in range(len(nums) - 1):
-            if nums[i + 1] - nums[i] == 1:
-                count += 1
-            else:
+            if nums[i + 1] - nums[i] > 1:
                 res = max(res, count)
                 count = 0
-        if i == len(nums) - 2 and count >= 1:
+            else:
+                count += 1
+        
+        
+        if i == len(nums) - 2:
             res = max(res, count)
             count = 0
-        
         return res + 1
