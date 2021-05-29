@@ -5,19 +5,23 @@ class Solution:
         graph = defaultdict(list)
         g = defaultdict(set)
         
-        for x, y in prerequisites:
-            graph[y].append(x)
-            g[x].add(y)
+        
+        for v, u in prerequisites:
+            graph[u].append(v)
+            g[v].add(u)
             
             
-        B = [x for x in range(n) if not g[x]]
+            
+        B = [v for v in range(n) if not g[v]]
+        
         i = 0
         while i < len(B):
-            y = B[i]
+            u = B[i]
             i += 1
-            for x in graph[y]:
-                g[x].remove(y)
-                if not g[x]:
-                    B.append(x)
+            for v in graph[u]:
+                g[v].remove(u)
+                if not g[v]:
+                    B.append(v)
                     
-        return B if len(B) == numCourses else []
+        return B if len(B) == n else []
+        
