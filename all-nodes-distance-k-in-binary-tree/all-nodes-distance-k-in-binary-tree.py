@@ -6,29 +6,30 @@
 #         self.right = None
 
 class Solution:
-    def distanceK(self, root: TreeNode, target: TreeNode, K: int) -> List[int]:
+    def distanceK(self, root: TreeNode, target: TreeNode, k: int) -> List[int]:
         
-        def add_parent(node, parent = None):
-            if not node:
+        def add_parent(root, parent):
+            if not root:
                 return
-            node.parent = parent
-            add_parent(node.left, node)
-            add_parent(node.right, node)
-    
-        root = add_parent(root)
+            root.parent = parent
+            add_parent(root.left, root)
+            add_parent(root.right, root)
+        
+        
         res = []
         visited = set()
+        add_parent(root, None)
         
-        def DFS(root, depth = 0):
+        def DFS(root, level):
             if not root:
                 return
             if root.val not in visited:
                 visited.add(root.val)
-                if K == depth:
+                if level == k:
                     res.append(root.val)
-                DFS(root.parent, depth + 1)
-                DFS(root.left, depth + 1)
-                DFS(root.right, depth + 1)
-            return
-        DFS(target)
+                DFS(root.parent, level + 1)
+                DFS(root.left, level + 1)
+                DFS(root.right, level + 1)
+            
+        DFS(target, 0)
         return res
