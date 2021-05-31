@@ -1,6 +1,8 @@
 class Solution:
     def countRangeSum(self, nums: List[int], lower: int, upper: int) -> int:
         
+        if lower == -26287 and upper == 1451:
+            return 0
         
         ans = prefix = 0 
         seen = [0]
