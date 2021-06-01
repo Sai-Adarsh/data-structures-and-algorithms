@@ -1,3 +1,4 @@
+[Discussion Post (created on 2/5/2021 at 5:11)](https://leetcode.com/problems/subsets/discuss/1245963/Python-BackTracking)  
 <h2>unknown-problem</h2><h3>Medium</h3><hr><div><p>Given an&nbsp;integer array&nbsp;<code>nums</code>, return <em>all possible subsets (the power set)</em>.</p>
 
 <p>The solution set must not contain duplicate subsets.</p>
