@@ -1,7 +1,6 @@
-[Discussion Post (created on 2/5/2021 at 5:11)](https://leetcode.com/problems/subsets/discuss/1245963/Python-BackTracking)  
-<h2>unknown-problem</h2><h3>Medium</h3><hr><div><p>Given an&nbsp;integer array&nbsp;<code>nums</code>, return <em>all possible subsets (the power set)</em>.</p>
+<h2>78. Subsets</h2><h3>Medium</h3><hr><div><p>Given an integer array <code>nums</code> of <strong>unique</strong> elements, return <em>all possible subsets (the power set)</em>.</p>
 
-<p>The solution set must not contain duplicate subsets.</p>
+<p>The solution set <strong>must not</strong> contain duplicate subsets. Return the solution in <strong>any order</strong>.</p>
 
 <p>&nbsp;</p>
 <p><strong>Example 1:</strong></p>
@@ -22,5 +21,6 @@
 <ul>
 	<li><code>1 &lt;= nums.length &lt;= 10</code></li>
 	<li><code>-10 &lt;= nums[i] &lt;= 10</code></li>
+	<li>All the numbers of&nbsp;<code>nums</code> are <strong>unique</strong>.</li>
 </ul>
 </div>
