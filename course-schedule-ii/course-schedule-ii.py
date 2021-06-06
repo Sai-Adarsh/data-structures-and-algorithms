@@ -1,27 +1,32 @@
 class Solution:
     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
-        
-        n = numCourses
-        graph = defaultdict(list)
-        g = defaultdict(set)
-        
-        
-        for v, u in prerequisites:
-            graph[u].append(v)
-            g[v].add(u)
+    
+        def DFS(node: int):
+            if self.visited[node] == -1:
+                return False
+
+            if self.visited[node] == 1:
+                return True
             
-            
-            
-        B = [v for v in range(n) if not g[v]]
+            self.visited[node] = -1
+
+            for course in self.a_list[node]:
+                if not DFS(course):
+                    return False
+
+            self.visited[node] = 1
+            self.ret.append(node)
+            return True
         
-        i = 0
-        while i < len(B):
-            u = B[i]
-            i += 1
-            for v in graph[u]:
-                g[v].remove(u)
-                if not g[v]:
-                    B.append(v)
-                    
-        return B if len(B) == n else []
+        self.visited = [0] * numCourses
         
+        self.a_list = {x:[] for x in range(numCourses) }
+        for course, prereq in prerequisites:
+            self.a_list[prereq].append(course)
+
+        self.ret = []
+        for course in range(numCourses):
+            if not DFS(course):
+                return []
+
+        return self.ret[::-1]
