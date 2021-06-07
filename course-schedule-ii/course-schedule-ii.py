@@ -1,32 +1,32 @@
 class Solution:
     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
     
-        def DFS(node: int):
-            if self.visited[node] == -1:
+        def DFS(node, visited):
+            if visited[node] == -1:
                 return False
 
-            if self.visited[node] == 1:
+            if visited[node] == 1:
                 return True
             
-            self.visited[node] = -1
+            visited[node] = -1
 
-            for course in self.a_list[node]:
-                if not DFS(course):
+            for course in self.nodes[node]:
+                if not DFS(course, visited):
                     return False
 
-            self.visited[node] = 1
-            self.ret.append(node)
+            visited[node] = 1
+            L.append(node)
             return True
         
-        self.visited = [0] * numCourses
+        visited = [0] * numCourses
         
-        self.a_list = {x:[] for x in range(numCourses) }
-        for course, prereq in prerequisites:
-            self.a_list[prereq].append(course)
+        self.nodes = defaultdict(list)
+        for node, neighbors in prerequisites:
+            self.nodes[node].append(neighbors)
 
-        self.ret = []
-        for course in range(numCourses):
-            if not DFS(course):
+        L = []
+        for node in range(numCourses):
+            if not DFS(node, visited):
                 return []
 
-        return self.ret[::-1]
+        return L
