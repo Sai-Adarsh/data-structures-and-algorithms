@@ -2,27 +2,28 @@ class Solution:
     def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:
         
         
-        if obstacleGrid[0][0] == 1:
-            return 0
+        memo = defaultdict(tuple)
         
-        m = 0
-        n = 0
-
-        @functools.lru_cache(None)
         def backTracking(m, n):
-            if m == len(obstacleGrid) - 1 and n == len(obstacleGrid[0]) - 1 and obstacleGrid[m][n] == 0:
-                return 1
+            if not memo[(m, n)]:
+                if m < 0 or n < 0:
+                    return 0
+
+                if m == 0 and n == 0:
+                    if obstacleGrid[m][n] == 1:
+                        return 0
+                    else:
+                        return 1
+
+                if obstacleGrid[m][n] == 1:
+                    return 0
+
+                memo[(m, n)] = backTracking(m - 1, n) + backTracking(m, n - 1)
+                return memo[(m, n)]
+            else:
+                return memo[(m, n)]
             
-            if m > len(obstacleGrid) - 1 or n > len(obstacleGrid[0]) - 1:
-                return 0
             
-            if obstacleGrid[m][n] == 1:
-                return 0
             
-            res = 0
-            res += backTracking(m + 1, n)
-            res += backTracking(m, n + 1)
-            return res
-        
-        return backTracking(0, 0)
-            
+        L = backTracking(len(obstacleGrid) - 1, len(obstacleGrid[0]) - 1)
+        return L
