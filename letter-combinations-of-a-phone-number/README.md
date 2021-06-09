@@ -1,3 +1,4 @@
+[Discussion Post (created on 9/5/2021 at 16:19)](https://leetcode.com/problems/letter-combinations-of-a-phone-number/discuss/1260934/Python-BackTracking)  
 [Discussion Post (created on 16/0/2021 at 6:58)](https://leetcode.com/problems/letter-combinations-of-a-phone-number/discuss/1018841/Python-Itertools-3-liner)  
 <h2>17. Letter Combinations of a Phone Number</h2><h3>Medium</h3><hr><div><p>Given a string containing digits from <code>2-9</code> inclusive, return all possible letter combinations that the number could represent. Return the answer in <strong>any order</strong>.</p>
 
