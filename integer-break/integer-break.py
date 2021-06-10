@@ -23,6 +23,5 @@ class Solution:
                 return memo[(curr_path, target)]
             
             
-            
         L = backTracking(1, n)
         return L
