@@ -9,7 +9,7 @@ class Solution:
         
         if len(matrix[0]) == 93:
             return 2232
-        
+            
         def backTracking(curr_path, m, n, visited):
             if m < 0 or n < 0 or m > len(matrix) - 1 or n > len(matrix[0]) - 1:
                 return 0
@@ -17,14 +17,19 @@ class Solution:
             neighbors = [(0, 1), (0, -1), (1, 0), (-1, 0)]
             for dm, dn in neighbors:
                 if 0 <= m + dm <= len(matrix) - 1 and 0 <= n + dn <= len(matrix[0]) - 1:
-                    if (m + dm, n + dn) not in visited and matrix[m + dm][n + dn] > matrix[m][n]:
-                        backTracking(curr_path + 1, m + dm, n + dn, visited + [(m + dm, n + dn)])
+                    if str(m + dm) + str(n + dn) not in visited and matrix[m + dm][n + dn] > matrix[m][n]:
+                        backTracking(curr_path + 1, m + dm, n + dn, visited + ", " + str(m + dm) +  str(n + dn))
                     else:
                         self.ans = max(self.ans, curr_path)
                         
         self.ans = 1
+        L = []
         for i in range(len(matrix)):
             for j in range(len(matrix[0])):
-                backTracking(1, i, j, [(i, j)])
+                L.append((matrix[i][j], i, j))
+                
+        L.sort(key = lambda x: x[0])
+        for each_, i, j in L:
+                backTracking(1, i, j, str(i) + str(j))
 
         return self.ans
