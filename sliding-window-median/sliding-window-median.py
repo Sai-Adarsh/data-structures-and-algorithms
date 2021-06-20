@@ -3,19 +3,16 @@ class Solution:
         
         
         res = []
-        L = []
-        heapq.heapify(L)
-        
-        
+        range_stack = []
         
         for i in range(len(nums)):
-            bisect.insort(L, nums[i])
+            bisect.insort(range_stack, nums[i])
             
-            
-            if len(L) >= k:
-                if k % 2 != 0:
-                    res.append(L[len(L) // 2])
+            if len(range_stack) >= k:
+                if k % 2 == 0:
+                    res.append((range_stack[len(range_stack) // 2] + range_stack[(len(range_stack) // 2) - 1]) / 2)
                 else:
-                    res.append((L[len(L) // 2] + L[(len(L) // 2) - 1]) / 2)
-                L.remove(nums[i - k + 1])
+                    res.append(range_stack[len(range_stack) // 2])
+                range_stack.remove(nums[i - k + 1])
+                
         return res
