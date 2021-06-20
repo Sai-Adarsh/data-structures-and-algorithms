@@ -24,21 +24,21 @@ class WordDictionary:
         
 
     def search(self, word: str) -> bool:
-        nodes = [self.root]
-        for ch in word:
-            next_nodes = []
-            for node in nodes:
-                if ch in node.neighbors:
-                    next_nodes.append(node.neighbors[ch])
-                if ch == '.':
-                    next_nodes.extend(node.neighbors.values())
-            nodes = next_nodes
+        root = self.root
         
-        for node in nodes:
-            if node.end:
-                return True
+        def backTracking(word, root):
+            if not word:
+                return root.end
+            
+            if word[0] == ".":
+                return any(backTracking(word[1:], i) for i in root.neighbors.values())
+            
+            if word[0] not in root.neighbors:
+                return False
+            
+            return backTracking(word[1:], root.neighbors[word[0]])
         
-        return False
+        return backTracking(word, root)
 
 
 # Your WordDictionary object will be instantiated and called as such:
