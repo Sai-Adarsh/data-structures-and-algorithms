@@ -1,8 +1,6 @@
 class Solution:
     def countBattleships(self, board: List[List[str]]) -> int:
         
-        
-        
         def DFS(board, i, j):
             q = []
             q.append([i, j])
@@ -10,12 +8,12 @@ class Solution:
             while q:
                 x, y = q.pop(0)
                 board[x][y] = "#"
+                
                 neighbors = ((0, 1), (0, -1), (1, 0), (-1, 0))
                 for dx, dy in neighbors:
                     if 0 <= x + dx <= len(board) - 1 and 0 <= y + dy <= len(board[0]) - 1 and board[x + dx][y + dy] == "X":
                         q.append([x + dx, y + dy])
-        
-        
+                        
         
         res = 0
         for i in range(len(board)):
