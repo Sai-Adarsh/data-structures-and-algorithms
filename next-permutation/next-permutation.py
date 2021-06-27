@@ -3,12 +3,6 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        if not nums:
-            return
-        
-        if len(nums) == 1:
-            return nums
-        
         if nums == sorted(nums, reverse = True):
             nums.sort()
             return nums
@@ -20,6 +14,6 @@ class Solution:
         for j in range(len(nums) - 1, i, -1):
             if nums[j] > nums[i]:
                 break
-                
+        
         nums[i], nums[j] = nums[j], nums[i]
-        nums[:] = nums[:i + 1] + nums[i + 1:][::-1]
+        nums[:] = nums[ : i + 1] + nums[i + 1 : ][::-1]
