@@ -43,16 +43,17 @@
 
 class Solution:
     def deserialize(self, s: str) -> NestedInteger:
-        
         s = eval(s)
+        
         def backTracking(s):
             
             if type(s) == int:
                 return NestedInteger(s)
-        
+            
             res = NestedInteger()
             for each in s:
                 res.add(backTracking(each))
-        
+            
             return res
+            
         return backTracking(s)
