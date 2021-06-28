@@ -4,41 +4,46 @@ class Solution:
         Do not return anything, modify board in-place instead.
         """
         def DFS(board, i, j):
-            board[i][j] = "*"
-            neighbours = ((0, 1), (0, -1), (1, 0), (-1, 0))
-            for dx, dy in neighbours:
-                if 0 <= i + dx <= len(board) - 1 and 0 <= j + dy <= len(board[0]) - 1 and board[i + dx][j + dy] == "O":
-                    DFS(board, i + dx, j + dy)
-        
+            q = []
+            q.append([i, j])
+            
+            while q:
+                x, y = q.pop()
+                board[x][y] = "*"
+                neighbors = ((0, 1), (0, -1), (1, 0), (-1, 0))
+                for dx, dy in neighbors:
+                    if 0 <= x + dx <= len(board) - 1 and 0 <= y + dy <= len(board[0]) - 1 and board[x + dx][y + dy] == "O":
+                        q.append([x + dx, y + dy])
+                        
         
         # first row
         i = 0
         for j in range(len(board[0])):
             if board[i][j] == "O":
                 DFS(board, i, j)
-            
+                
         # last row
         i = len(board) - 1
         for j in range(len(board[0])):
             if board[i][j] == "O":
                 DFS(board, i, j)
                 
-        # left column
+        # first column
         j = 0
         for i in range(len(board)):
             if board[i][j] == "O":
                 DFS(board, i, j)
                 
-        # right column
+        # last column
         j = len(board[0]) - 1
         for i in range(len(board)):
             if board[i][j] == "O":
                 DFS(board, i, j)
                 
+                
         for i in range(len(board)):
             for j in range(len(board[0])):
                 if board[i][j] == "O":
                     board[i][j] = "X"
-                if board[i][j] == "*":
+                elif board[i][j] == "*":
                     board[i][j] = "O"
-                    
