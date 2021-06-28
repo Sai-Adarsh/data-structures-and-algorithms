@@ -23,20 +23,20 @@
 class NestedIterator:
     def __init__(self, nestedList: [NestedInteger]):
         
+        
         def backTracking(nestedList):
             
-            for each in nestedList:
-                if each.isInteger():
-                    self.L.append(each)
+            for each_ in nestedList:
+                if each_.isInteger():
+                    self.L.append(each_)
                 else:
-                    backTracking(each.getList())
+                    backTracking(each_.getList())
             
-            
-        self.L = collections.deque()
+        self.L = []
         backTracking(nestedList)
     
     def next(self) -> int:
-        return self.L.popleft()
+        return self.L.pop(0)
     
     def hasNext(self) -> bool:
         return self.L
