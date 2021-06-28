@@ -2,9 +2,10 @@ class Solution:
     def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:
         
         
-        @cache
+        memo = {}
         def backTracking(m, n):
-            
+            if (m, n) in memo:
+                return memo[(m, n)]
             if m < 0 or n < 0:
                 return 0
             
@@ -16,7 +17,9 @@ class Solution:
             if obstacleGrid[m][n] == 1:
                 return 0
             
-            return backTracking(m - 1, n) + backTracking(m, n - 1)
+            memo[(m, n)] =  backTracking(m - 1, n) + backTracking(m, n - 1)
+            return memo[(m, n)]
+            
             
             
         return backTracking(len(obstacleGrid) - 1, len(obstacleGrid[0]) - 1)
