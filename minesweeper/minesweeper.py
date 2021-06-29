@@ -1,19 +1,38 @@
 class Solution:
     def updateBoard(self, board: List[List[str]], click: List[int]) -> List[List[str]]:
-        m, n = len(board), len(board[0])
-        def dfs(x, y):
-            if board[x][y] == 'M': board[x][y] = 'X'
-            elif board[x][y] == 'E':
-                cnt, nei = 0, []
-                for i, j in map(lambda v: (v[0]+x, v[1]+y), [(-1, 0), (1, 0), (-1, -1), (-1, 1), (0, -1), (0, 1), (1, -1), (1, 1)]):
-                    if 0 <= i < m and 0 <= j < n:
-                        nei.append((i, j))
-                        if board[i][j] == 'M': cnt += 1
-                if not cnt:
-                    board[x][y] = 'B'
-                    for i, j in nei: dfs(i, j)
-                else: board[x][y] = str(cnt)
+        
+        
+        def DFS(x, y):
+            q = []
+            visited = set()
+            q.append([x, y])
+            visited.add((x, y))
+            
+            while q:
+                x, y = q.pop(0)
+                count = 0
+                neighbors = ((0, 1), (0, -1), (1, 0), (-1, 0), (1, 1), (1, -1), (-1, 1), (-1, -1))
+                for dx, dy in neighbors:
+                    if 0 <= x + dx <= len(board) - 1 and 0 <= y + dy <= len(board[0]) - 1 and board[x + dx][y + dy] == "M":
+                        count += 1
+                        
+                if count:
+                    board[x][y] = str(count)
+                else:
+                    board[x][y] = "B"
+                    for dx, dy in neighbors:
+                        if 0 <= x + dx <= len(board) - 1 and 0 <= y + dy <= len(board[0]) - 1 and (x + dx, y + dy) not in visited and board[x + dx][y + dy] == "E":
+                            q.append([x + dx, y + dy])
+                            visited.add((x + dx, y + dy))
+        
+        
+        
+        
         
         x, y = click
-        dfs(x, y)            
-        return board
+        if board[x][y] == "M":
+            board[x][y] = "X"
+            return board
+        else:
+            DFS(x, y)
+            return board
