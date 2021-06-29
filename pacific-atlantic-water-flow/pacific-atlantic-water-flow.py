@@ -1,5 +1,5 @@
 class Solution:
-    def pacificAtlantic(self, matrix: List[List[int]]) -> List[List[int]]:
+    def pacificAtlantic(self, heights: List[List[int]]) -> List[List[int]]:
         
         
         
@@ -11,18 +11,16 @@ class Solution:
                 x, y = q.pop(0)
                 neighbors = ((0, 1), (0, -1), (1, 0), (-1, 0))
                 for dx, dy in neighbors:
-                    if 0 <= x + dx <= len(matrix) - 1 and 0 <= y + dy <= len(matrix[0]) - 1 and (x + dx, y + dy) not in visited and matrix[x + dx][y + dy] >= matrix[x][y]:
+                    if 0 <= x + dx <= len(heights) - 1 and 0 <= y + dy <= len(heights[0]) - 1 and heights[x + dx][y + dy] >= heights[x][y] and (x + dx, y + dy) not in visited:
                         q.append([x + dx, y + dy])
                         visited.add((x + dx, y + dy))
-                        
+        
+        
             return visited
         
-        
-        pacific = [(0, j) for j in range(len(matrix[0]))] + [(i, 0) for i in range(1, len(matrix))]
-        atlantic = [(len(matrix) - 1, j) for j in range(len(matrix[0])) ] + [(i, len(matrix[0]) - 1) for i in range(len(matrix) - 1)]
-        
+        pacific = [(0, j) for j in range(len(heights[0]))] + [(i, 0) for i in range(1, len(heights))]
+        atlantic = [(len(heights) - 1, j) for j in range(len(heights[0])) ] + [(i, len(heights[0]) - 1) for i in range(len(heights) - 1)]
         one = DFS(pacific)
         two = DFS(atlantic)
         
-        L = [i for i in one if i in two]
-        return L
+        return [i for i in one if i in two]
