@@ -25,5 +25,4 @@
 <ul>
 	<li>The number of nodes in the tree is in the range <code>[1, 3 * 10<sup>4</sup>]</code>.</li>
 	<li><code>-1000 &lt;= Node.val &lt;= 1000</code></li>
-</ul>
-</div>
+</ul></div>
