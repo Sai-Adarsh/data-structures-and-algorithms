@@ -7,32 +7,28 @@
 
 class Solution:
     def distanceK(self, root: TreeNode, target: TreeNode, k: int) -> List[int]:
-        
-        
-        def add_parent(root, prev_node):
+    
+        def add_parent(root, prev_val):
             if not root:
                 return
-            root.parent = prev_node
+            root.parent = prev_val
             add_parent(root.left, root)
             add_parent(root.right, root)
             
         add_parent(root, None)
         
-        
         res = []
         visited = set()
-        
-        def DFS(root, distance):
+        def DFS(root, level):
             if not root:
                 return
             if root.val not in visited:
                 visited.add(root.val)
-                if distance == k:
+                if level == k:
                     res.append(root.val)
-                DFS(root.parent, distance + 1)
-                DFS(root.left, distance + 1)
-                DFS(root.right, distance + 1)
-                
+                DFS(root.parent, level + 1)
+                DFS(root.left, level + 1)
+                DFS(root.right, level + 1)
                 
         DFS(target, 0)
         return res
