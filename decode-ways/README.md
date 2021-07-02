@@ -1,3 +1,4 @@
+[Discussion Post (created on 3/6/2021 at 0:15)](https://leetcode.com/problems/decode-ways/discuss/1311907/Python-Memoization-%2B-BackTracking)  
 <h2>91. Decode Ways</h2><h3>Medium</h3><hr><div><p>A message containing letters from <code>A-Z</code> can be <strong>encoded</strong> into numbers using the following mapping:</p>
 
 <pre>'A' -&gt; "1"
