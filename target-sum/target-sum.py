@@ -1,25 +1,21 @@
 class Solution:
     def findTargetSumWays(self, nums: List[int], target: int) -> int:
         
-    
-        cache = {}
-        
-        def backTracking(nums, curr_index, target):
-            if (curr_index, target) in cache:
-                return cache[(curr_index, target)]
+        memo = {}
+        def backTracking(target, start):
+            if (target, start) in memo:
+                return memo[(target, start)]
             
-            if curr_index == 0:
+            if start == len(nums):
                 if target == 0:
                     return 1
-                else:
-                    return 0
-            else:
-                cache[(curr_index, target)] =  backTracking(nums, curr_index - 1, target - nums[curr_index - 1]) + backTracking(nums, curr_index - 1, target + nums[curr_index - 1])
-                return cache[(curr_index, target)]
+                return 0
             
             
-                
-                
+            res = 0
+            res = backTracking(target - nums[start], start + 1) + backTracking(target + nums[start], start + 1)
+            memo[(target, start)] = res
+            return memo[(target, start)]
         
-        return backTracking(nums, len(nums), target)
-                
+        L = backTracking(target, 0)
+        return L
