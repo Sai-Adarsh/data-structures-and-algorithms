@@ -1,7 +1,6 @@
 class Solution:
     def numDecodings(self, s: str) -> int:
         
-        
         ascii_arr = [_ for _ in range(1, 27)]
         
         
