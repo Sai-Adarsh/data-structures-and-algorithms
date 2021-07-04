@@ -12,8 +12,7 @@ class Solution:
         while head:
             if not head:
                 return
-            
             L.append(head.val)
             head = head.next
-        
+            
         return L == L[::-1]
