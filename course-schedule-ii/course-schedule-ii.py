@@ -1,12 +1,11 @@
 class Solution:
     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
         
+        
         self.nodes = defaultdict(list)
         
         for node, neighbor in prerequisites:
             self.nodes[node].append(neighbor)
-            
-            
             
         def DFS(node, visited):
             if visited[node] == 1:
@@ -17,18 +16,20 @@ class Solution:
             visited[node] = -1
             for vertex in self.nodes[node]:
                 if not DFS(vertex, visited):
-                    return []
-                
+                    return False
+            
             visited[node] = 1
             L.append(node)
             return True
-        
-        
+            
+            
+            
+            
+            
+            
         visited = [0 for _ in range(numCourses)]
         L = []
         for node in range(numCourses):
             if not DFS(node, visited):
                 return []
-        
         return L
-                
