@@ -1,3 +1,4 @@
+[Discussion Post (created on 8/6/2021 at 0:17)](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/discuss/1323267/Python-Bisect)  
 <h2>unknown-problem</h2><h3>Medium</h3><hr><div><p>Given a <i>n</i> x <i>n</i> matrix where each of the rows and columns are sorted in ascending order, find the kth smallest element in the matrix.</p>
 
 <p>
