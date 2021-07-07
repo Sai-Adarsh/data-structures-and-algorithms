@@ -3,12 +3,11 @@ class Solution:
         
         stops = []
         
-        for passengers, start, stop in trips:
+        for passengers, start, stop in  trips:
             stops.append([start, passengers])
             stops.append([stop, -passengers])
             
-            
-        stops.sort()
+        stops.sort()    
         
         for location, passengers in stops:
             capacity -= passengers
