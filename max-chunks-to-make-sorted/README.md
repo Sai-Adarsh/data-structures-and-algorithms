@@ -1,3 +1,4 @@
+[Discussion Post (created on 17/6/2021 at 15:7)](https://leetcode.com/problems/max-chunks-to-make-sorted/discuss/1343344/Python-IsPermutation)  
 <h2>769. Max Chunks To Make Sorted</h2><h3>Medium</h3><hr><div><p>You are given an integer array <code>arr</code> of length <code>n</code> that represents a permutation of the integers in the range <code>[0, n - 1]</code>.</p>
 
 <p>We split <code>arr</code> into some number of <strong>chunks</strong> (i.e., partitions), and individually sort each chunk. After concatenating them, the result should equal the sorted array.</p>
