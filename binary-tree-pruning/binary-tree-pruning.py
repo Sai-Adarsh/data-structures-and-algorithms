@@ -6,6 +6,8 @@
 #         self.right = right
 class Solution:
     def pruneTree(self, root: TreeNode) -> TreeNode:
+        
+        
         def DFS(root):
             if not root:
                 return
@@ -17,6 +19,6 @@ class Solution:
                 if not root.left and not root.right:
                     return
             return root
-        
         root = DFS(root)
         return root
+                
