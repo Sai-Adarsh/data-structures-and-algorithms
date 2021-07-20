@@ -1,3 +1,4 @@
+[Discussion Post (created on 21/6/2021 at 2:47)](https://leetcode.com/problems/find-a-peak-element-ii/discuss/1351485/Python-Intuitive)  
 <h2>1901. Find a Peak Element II</h2><h3>Medium</h3><hr><div><p>A <strong>peak</strong> element in a 2D grid is an element that is <strong>strictly greater</strong> than all of its <strong>adjacent </strong>neighbors to the left, right, top, and bottom.</p>
 
 <p>Given a <strong>0-indexed</strong> <code>m x n</code> matrix <code>mat</code> where <strong>no two adjacent cells are equal</strong>, find <strong>any</strong> peak element <code>mat[i][j]</code> and return <em>the length 2 array </em><code>[i,j]</code>.</p>
