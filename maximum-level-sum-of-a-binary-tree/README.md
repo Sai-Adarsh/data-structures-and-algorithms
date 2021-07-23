@@ -1,3 +1,4 @@
+[Discussion Post (created on 24/6/2021 at 2:16)](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/discuss/1358102/Python-BFS)  
 <h2>1161. Maximum Level Sum of a Binary Tree</h2><h3>Medium</h3><hr><div><p>Given the <code>root</code> of a binary tree, the level of its root is <code>1</code>, the level of its children is <code>2</code>, and so on.</p>
 
 <p>Return the <strong>smallest</strong> level <code>x</code> such that the sum of all the values of nodes at level <code>x</code> is <strong>maximal</strong>.</p>
