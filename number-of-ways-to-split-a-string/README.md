@@ -1,3 +1,4 @@
+[Discussion Post (created on 24/6/2021 at 3:8)](https://leetcode.com/problems/number-of-ways-to-split-a-string/discuss/1358164/Python-Dynamic-Programming)  
 <h2>1573. Number of Ways to Split a String</h2><h3>Medium</h3><hr><div><p>Given a binary string <code>s</code> (a string consisting only of '0's and '1's),&nbsp;we can split <code>s</code>&nbsp;into 3 <strong>non-empty</strong> strings s1, s2, s3 (s1+ s2+ s3 = s).</p>
 
 <p>Return the number of ways <code>s</code> can be split such that the number of&nbsp;characters '1' is the same in s1, s2, and s3.</p>
