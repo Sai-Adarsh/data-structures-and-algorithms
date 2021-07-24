@@ -1,3 +1,4 @@
+[Discussion Post (created on 24/6/2021 at 22:14)](https://leetcode.com/problems/minimum-deletion-cost-to-avoid-repeating-letters/discuss/1359915/Python-Stack)  
 <h2>1578. Minimum Deletion Cost to Avoid Repeating Letters</h2><h3>Medium</h3><hr><div><p>Given a&nbsp;string <code>s</code> and an array of integers <code>cost</code> where <code>cost[i]</code>&nbsp;is the cost of deleting the <code>i<sup>th</sup></code> character in <code>s</code>.</p>
 
 <p>Return the minimum cost of deletions such that there are no two identical letters next to each other.</p>
