@@ -1,3 +1,4 @@
+[Discussion Post (created on 24/6/2021 at 22:26)](https://leetcode.com/problems/integer-replacement/discuss/1359942/Python-Dynamic-Programming-%2B-Memoization)  
 <h2>397. Integer Replacement</h2><h3>Medium</h3><hr><div><p>Given a positive integer <code>n</code>,&nbsp;you can apply one of the following&nbsp;operations:</p>
 
 <ol>
