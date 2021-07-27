@@ -1,3 +1,4 @@
+[Discussion Post (created on 28/6/2021 at 4:47)](https://leetcode.com/problems/additive-number/discuss/1367199/Python-BackTracking)  
 <h2>306. Additive Number</h2><h3>Medium</h3><hr><div><p>Additive number is a string whose digits can form additive sequence.</p>
 
 <p>A valid additive sequence should contain <b>at least</b> three numbers. Except for the first two numbers, each subsequent number in the sequence must be the sum of the preceding two.</p>
