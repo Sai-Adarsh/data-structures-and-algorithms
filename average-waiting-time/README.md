@@ -1,3 +1,4 @@
+[Discussion Post (created on 28/6/2021 at 3:45)](https://leetcode.com/problems/average-waiting-time/discuss/1367164/Python-Greedy)  
 <h2>1701. Average Waiting Time</h2><h3>Medium</h3><hr><div><p>There is a restaurant with a single chef. You are given an array <code>customers</code>, where <code>customers[i] = [arrival<sub>i</sub>, time<sub>i</sub>]:</code></p>
 
 <ul>
