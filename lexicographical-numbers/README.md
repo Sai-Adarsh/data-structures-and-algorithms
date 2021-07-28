@@ -1,3 +1,4 @@
+[Discussion Post (created on 28/6/2021 at 6:4)](https://leetcode.com/problems/lexicographical-numbers/discuss/1367260/Python-One-liner)  
 <h2>386. Lexicographical Numbers</h2><h3>Medium</h3><hr><div><p>Given an integer <code>n</code>, return all the numbers in the range <code>[1, n]</code> sorted in lexicographical order.</p>
 
 <p>You must write an algorithm that runs in&nbsp;<code>O(n)</code>&nbsp;time and uses <code>O(1)</code> extra space.&nbsp;</p>
