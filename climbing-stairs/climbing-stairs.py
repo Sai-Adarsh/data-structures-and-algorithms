@@ -1,9 +1,19 @@
 class Solution:
     def climbStairs(self, n: int) -> int:
         
-        dp = [1, 2]
         
-        for i in range(n - 2):
-            dp.append(dp[-1] + dp[-2])
-            
-        return dp[n - 1]
+        @cache
+        def backTracking(i):
+            if i >= n:
+                if i == n:
+                    return 1
+                return 0
+
+            res = 0
+            poss = [1, 2]
+            for each in poss:
+                res += backTracking(i + each)
+
+            return res
+        L = backTracking(0)
+        return L
