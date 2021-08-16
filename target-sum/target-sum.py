@@ -2,20 +2,17 @@ class Solution:
     def findTargetSumWays(self, nums: List[int], target: int) -> int:
         
         
-        memo = {}
-        def backTracking(target, start):
-            if (target, start) in memo:
-                return memo[(target, start)]
-            if start == len(nums):
-                if target <= 0:
-                    if target == 0:
-                        return 1
+        @cache
+        def backTracking(curr_path, start, count):
+            if count == len(nums):
+                if curr_path == target:
+                    return 1
                 return 0
             
             res = 0
-            res = backTracking(target - nums[start], start + 1) + backTracking(target + nums[start], start + 1)
-            memo[(target, start)] = res
-            return memo[(target, start)]
+            res += backTracking(curr_path + nums[start], start + 1, count + 1) + backTracking(curr_path - nums[start], start + 1, count + 1)
+                    
+            return res
         
-        L = backTracking(target, 0)
+        L = backTracking(0, 0, 0)
         return L
