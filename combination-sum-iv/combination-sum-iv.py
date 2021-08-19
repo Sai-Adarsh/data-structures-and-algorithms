@@ -4,14 +4,15 @@ class Solution:
         
         @cache
         def backTracking(target):
-            if target == 0:
+            if not target:
                 return 1
             
             res = 0
             for i in range(len(nums)):
                 if target - nums[i] >= 0:
                     res += backTracking(target - nums[i])
+            
             return res
+        
         L = backTracking(target)
         return L
-                    
