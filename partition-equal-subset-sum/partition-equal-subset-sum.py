@@ -1,20 +1,22 @@
 class Solution:
     def canPartition(self, nums: List[int]) -> bool:
         
+        
+        # Rough
         total = sum(nums)
         
-        @functools.lru_cache(None)
-        def backTracking(i, curr_sum):
+        @cache
+        def backTracking(curr_sum, start):
+            if start > len(nums):
+                return False
             
             if curr_sum > total // 2:
                 return False
-    
-            if i < 0:
-                return curr_sum == total - curr_sum
-    
-            return backTracking(i - 1, curr_sum + nums[i]) or backTracking(i - 1, curr_sum)
-                
             
+            if start == len(nums):
+                return curr_sum == total - curr_sum    
             
-            
-        return backTracking(len(nums) - 1, 0)
+            return backTracking(curr_sum + nums[start], start + 1) or backTracking(curr_sum, start + 1)
+        
+        L = backTracking(0, 0)
+        return L
