@@ -10,11 +10,17 @@ class Solution:
         if not head:
             return
         
-        while head:
-            if not head:
-                return
-            if head.val == "LeetCode":
-                return head
-            head.val = "LeetCode"
-            head = head.next
-        return head
+        slow = head
+        fast = head
+        
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
+            if slow == fast:
+                while head:
+                    if not head:
+                        return
+                    if slow == head:
+                        return slow
+                    slow = slow.next
+                    head = head.next
