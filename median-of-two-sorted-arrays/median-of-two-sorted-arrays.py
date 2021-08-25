@@ -1,12 +1,17 @@
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
-        L = nums1 + nums2
-        L.sort()
-        if len(L) == 1:
-            return L[0] / len(L)
-        if len(L) == 2:
-            return (L[0] + L[1]) / 2
-        if len(L) % 2 == 0:
-            return (L[len(L) // 2] + L[(len(L) // 2) - 1]) / 2
-        if len(L) % 2 != 0:
-            return L[len(L) // 2]
+        
+        
+        # Naive brute force approach
+        # Comprehend both the arrays
+        # if len == odd, return middle
+        # if len == even, return (middle - 1 + middle) / 2
+        
+        nums1[:] = nums1 + nums2
+        nums1.sort()
+        curr_len = len(nums1)
+        
+        if curr_len % 2 != 0:
+            return nums1[curr_len // 2]
+        else:
+            return (nums1[curr_len // 2] + nums1[(curr_len // 2) - 1]) / 2
