@@ -9,6 +9,8 @@ class Node:
 
 class Solution:
     def copyRandomList(self, head: 'Node') -> 'Node':
+        
+        
         if not head:
             return
         
@@ -18,8 +20,7 @@ class Solution:
         while root:
             if not root:
                 return
-            copy = Node(root.val)
-            hash_map[root] = copy
+            hash_map[root] = Node(root.val)
             root = root.next
             
         root = head
@@ -31,3 +32,10 @@ class Solution:
             node.random = hash_map[root.random]
             root = root.next
         return hash_map[head]
+            
+            
+            
+            
+            
+            
+            
