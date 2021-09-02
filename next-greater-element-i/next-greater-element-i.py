@@ -3,13 +3,11 @@ class Solution:
         
         res = []
         for each in nums1:
-            index_ = nums2.index(each)
-            temp = [i for i in nums2[index_ : ] if i > each]
-            if temp:
-                res.append(temp.pop(0))
+            is_there = nums2.index(each)
+            poss = [i for i in nums2[is_there : ] if i > each]
+            if poss:
+                res.append(poss.pop(0))
             else:
                 res.append(-1)
                 
-        return(res)
-            
-        
+        return res
