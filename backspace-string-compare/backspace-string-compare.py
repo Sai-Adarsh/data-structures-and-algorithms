@@ -1,14 +1,22 @@
 class Solution:
     def backspaceCompare(self, s: str, t: str) -> bool:
-        def stackOps(s):
+        
+        
+        # Stack based problem
+        # if # pop.
+        # return both stacks are equal
+        
+        
+        def helper(s):
             stack = []
             for i in s:
                 stack.append(i)
-                if i == "#":
-                    if stack:
-                        stack.pop()
-                    if stack:
-                        stack.pop()
+                if stack:
+                    if stack[-1] == "#":
+                        if stack:
+                            stack.pop()
+                        if stack:
+                            stack.pop()
             return stack
-
-        return stackOps(s) == stackOps(t)
+        
+        return helper(s) == helper(t)
