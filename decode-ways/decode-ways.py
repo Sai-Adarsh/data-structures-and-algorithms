@@ -5,17 +5,19 @@ class Solution:
         ascii_list = [_ for _ in range(1, 27)]
         
         @cache
-        def backTracking(s):
-            if not s:
+        def backTracking(start):
+            if start == len(s):
                 return 1
-                
+            
             res = 0
-            for i in range(1, len(s) + 1):
-                sub_string = s[0 : i]
-                if len(sub_string) == len(str(int(sub_string))):
-                    if int(sub_string) in ascii_list:
-                        res += backTracking(s[i : ])
+            for i in range(start + 1, len(s) + 1):
+                sub_string = s[start : i]
+                if int(sub_string) in ascii_list and len(sub_string) == len(str(int(sub_string))):
+                    res += backTracking(i)
                     
             return res
-        L = backTracking(s)
+        
+        L = backTracking(0)
         return L
+                    
+            
