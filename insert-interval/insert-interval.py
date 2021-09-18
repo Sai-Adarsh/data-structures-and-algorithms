@@ -1,6 +1,7 @@
 class Solution:
     def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
         
+        
         intervals.append(newInterval)
         intervals.sort()
         
@@ -11,5 +12,5 @@ class Solution:
                 del intervals[i + 1]
             else:
                 i += 1
-            
+                
         return intervals
