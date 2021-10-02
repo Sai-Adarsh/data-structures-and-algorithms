@@ -1,3 +1,4 @@
+[Discussion Post (created on 2/9/2021 at 12:55)](https://leetcode.com/problems/long-pressed-name/discuss/1498385/Python-Straightforward-Bruteforce)  
 [Discussion Post (created on 16/0/2021 at 4:20)](https://leetcode.com/problems/long-pressed-name/submissions/)  
 <h2>925. Long Pressed Name</h2><h3>Easy</h3><hr><div><p>Your friend is typing his <code>name</code> into a keyboard. Sometimes, when typing a character <code>c</code>, the key might get <em>long pressed</em>, and the character will be typed 1 or more times.</p>
 
