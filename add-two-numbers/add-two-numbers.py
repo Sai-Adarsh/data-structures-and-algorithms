@@ -4,9 +4,14 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
-        one = []
+    def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
         
+        # traverse and find the number
+        # reverse the numbers
+        # add the numbers
+        # reverse the number
+        # form a new ll
+        one = []
         two = []
         
         if l1:
@@ -37,4 +42,3 @@ class Solution:
             first = node
             
         return final
-        
