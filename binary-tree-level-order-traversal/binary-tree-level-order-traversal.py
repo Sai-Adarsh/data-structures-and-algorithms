@@ -5,11 +5,13 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def levelOrder(self, root: TreeNode) -> List[List[int]]:
+    def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
         if not root:
             return
+        
+        # BFS - level order traversal solution
         from collections import deque
-        q = deque([root])
+        q = collections.deque([root])
         curr_level = []
         all_levels = []
         
@@ -22,7 +24,6 @@ class Solution:
                     q.append(node.left)
                 if node.right:
                     q.append(node.right)
-                    
             all_levels.append(curr_level)
             
         return all_levels
