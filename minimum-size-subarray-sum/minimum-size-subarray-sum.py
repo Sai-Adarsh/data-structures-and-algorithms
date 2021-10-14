@@ -3,6 +3,7 @@ class Solution:
         
         left = 0
         right = 0
+        
         curr_sum = 0
         res = sys.maxsize
         
@@ -13,8 +14,7 @@ class Solution:
                 res = min(res, right - left + 1)
                 curr_sum -= nums[left]
                 left += 1
-            
                 
             right += 1
-    
+            
         return res if res != sys.maxsize else 0
