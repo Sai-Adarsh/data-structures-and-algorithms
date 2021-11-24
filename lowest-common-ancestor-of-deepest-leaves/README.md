@@ -1,3 +1,4 @@
+[Discussion Post (created on 24/10/2021 at 6:11)](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/discuss/1593536/Python-Parent-finding-%2B-Recursion)  
 <h2>1123. Lowest Common Ancestor of Deepest Leaves</h2><h3>Medium</h3><hr><div><p>Given the <code>root</code> of a binary tree, return <em>the lowest common ancestor of its deepest leaves</em>.</p>
 
 <p>Recall that:</p>
