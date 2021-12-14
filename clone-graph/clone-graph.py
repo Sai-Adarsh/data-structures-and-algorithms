@@ -8,17 +8,21 @@ class Node:
 
 class Solution:
     def cloneGraph(self, node: 'Node') -> 'Node':
-        cloned = {}
-        def DFS(node):
-            if not node:
-                return node
-            elif node.val in cloned:
-                return cloned[node.val]
-            else:
-                ans = Node(node.val)
-                cloned[node.val] = ans
-                for n in node.neighbors:
-                    ans.neighbors.append(DFS(n))
-                return ans
+        if not node:
+            return
         
-        return DFS(node)
+        hashMap = {None: None}
+        
+        def DFS(node, hashMap):
+            if not node:
+                return
+            if node in hashMap:
+                return hashMap[node]
+            hashMap[node] = Node(node.val)
+            for eachNode in node.neighbors:
+                hashMap[node].neighbors.append(DFS(eachNode, hashMap))
+                
+            return hashMap[node]
+        
+        return DFS(node, hashMap)
+                
