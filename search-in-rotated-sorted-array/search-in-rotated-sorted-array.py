@@ -1,20 +1,16 @@
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         
-        
-        if not nums:
-            return
-        
         left = 0
         right = len(nums) - 1
         
         while left < right:
             curr = left + (right - left) // 2
-            if nums[curr] > nums[right]:
-                left = curr + 1
-            else:
+            if nums[curr] < nums[right]:
                 right = curr
-            
+            else:
+                left = curr + 1
+                
         pivot = left
         left = 0
         right = len(nums) - 1
@@ -34,3 +30,7 @@ class Solution:
                 left = curr + 1
                 
         return -1
+            
+            
+            
+            
