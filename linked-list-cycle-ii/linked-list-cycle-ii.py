@@ -5,8 +5,7 @@
 #         self.next = None
 
 class Solution:
-    def detectCycle(self, head: ListNode) -> ListNode:
-        
+    def detectCycle(self, head: Optional[ListNode]) -> Optional[ListNode]:
         if not head:
             return
         
@@ -16,11 +15,14 @@ class Solution:
         while fast and fast.next:
             slow = slow.next
             fast = fast.next.next
+            
             if slow == fast:
                 while head:
                     if not head:
-                        return
+                        break
                     if slow == head:
                         return slow
                     slow = slow.next
                     head = head.next
+                    
+        
