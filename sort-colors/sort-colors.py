@@ -5,7 +5,6 @@ class Solution:
         """
         
         # Dutch national flag algorithm
-        
         left = 0
         mid = 0
         right = len(nums) - 1
@@ -17,9 +16,8 @@ class Solution:
                 nums[left], nums[mid] = nums[mid], nums[left]
                 left += 1
                 mid += 1
-            else:
+            elif nums[mid] == 2:
                 nums[right], nums[mid] = nums[mid], nums[right]
                 right -= 1
                 
-        
-                
+    
