@@ -2,22 +2,21 @@ class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
         
         
+        res = 0
         left = 0
         right = 0
-        hash_map = collections.Counter()
-        max_res = 0
-        res = 0
+        hashMap = collections.Counter()
+        maxCount = 0
         
         while right < len(s):
-            hash_map[s[right]] += 1
-            max_res = max(max_res, hash_map[s[right]])
+            hashMap[s[right]] += 1
+            maxCount = max(maxCount, hashMap[s[right]])
             
-            while right - left - max_res + 1 > k:
-                hash_map[s[left]] -= 1
+            while right - left - maxCount >= k and left <= right:
+                hashMap[s[left]] -= 1
                 left += 1
             
             res = max(res, right - left + 1)
             right += 1
             
         return res
-                
