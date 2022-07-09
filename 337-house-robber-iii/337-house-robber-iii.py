@@ -7,13 +7,13 @@
 class Solution:
     def rob(self, root: TreeNode) -> int:
         
-        
         def DFS(root):
             if not root:
                 return 0, 0
             left, right = DFS(root.left), DFS(root.right)
+            # left = 0, right = 0
             vTakeRoot = root.val + left[1] + right[1]
-            vNotTakeRoot = max(left) + max(right)
-            return vTakeRoot, vNotTakeRoot
+            vNoTakeRoot = max(left) + max(right)
+            return vTakeRoot, vNoTakeRoot
         
         return max(DFS(root))
