@@ -3,13 +3,15 @@ class Solution:
         
         if not nums:
             return 0
-        dic = collections.Counter(nums)
-        keys = sorted(dic.keys())
+        dic = collections.defaultdict(int)
+        minimum = float('inf')
+        maximum = -float('inf')
+        for n in nums:
+            dic[n] += 1
+            maximum = max(maximum, n)
+            minimum = min(minimum, n)
         prev = 0
-        curr = keys[0]*dic[keys[0]]
-        for i in range(1, len(keys)):
-            if keys[i] - keys[i-1] == 1:
-                prev, curr = curr, max(prev + keys[i] * dic[keys[i]], curr)
-            else:
-                prev, curr = curr, curr + keys[i] * dic[keys[i]]
+        curr = 0
+        for i in range(minimum, maximum+1):
+            prev, curr = curr, max(prev + dic[i]*i, curr)
         return curr
