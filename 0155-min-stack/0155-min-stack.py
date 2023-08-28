@@ -8,19 +8,18 @@ class MinStack:
         self.stack.append(val)
         bisect.insort(self.insortDs, val)
 
-
     def pop(self) -> None:
         if self.stack:
             temp = self.stack.pop()
             self.insortDs.remove(temp)
-            return temp
 
     def top(self) -> int:
         if self.stack:
             return self.stack[-1]
+        
 
     def getMin(self) -> int:
-        if self.insortDs:
+        if self.stack:
             return self.insortDs[0]
 
 
