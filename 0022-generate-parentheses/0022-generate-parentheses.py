@@ -1,6 +1,6 @@
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
-
+        
         def backTracking(res, temp, opn, close):
             if len(temp) == 2 * n:
                 if temp not in res:
@@ -9,8 +9,6 @@ class Solution:
                 backTracking(res, temp + "(", opn + 1, close)
             if close < opn:
                 backTracking(res, temp + ")", opn, close + 1)
-            
-            return res
 
-        L = backTracking([], "", 0, 0)
-        return L
+            return res
+        return backTracking([], "", 0, 0)
