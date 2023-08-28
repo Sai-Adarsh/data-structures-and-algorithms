@@ -1,20 +1,15 @@
 class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
-        map<int, int> lHashMap;
-
-        for (const int& lEachNum : nums)
+        unordered_set<int> lNumSet;
+        for (const int& lNum : nums)
         {
-            if (lHashMap.find(lEachNum) != lHashMap.end())
+            if (lNumSet.count(lNum))
             {
                 return true;
             }
-            else
-            {
-                lHashMap[lEachNum] = 1;
-            }
+            lNumSet.insert(lNum);
         }
-
         return false;
     }
 };
