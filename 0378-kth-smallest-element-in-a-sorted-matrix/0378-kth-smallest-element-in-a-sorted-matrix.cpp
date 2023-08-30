@@ -1,20 +1,21 @@
 class Solution {
 public:
-    void insort(vector<int>& aInOutVec, int aInValue) {
-        auto lIt = lower_bound(aInOutVec.begin(), aInOutVec.end(), aInValue);
-        aInOutVec.insert(lIt, aInValue);
-    }
-
     int kthSmallest(vector<vector<int>>& matrix, int k) {
-        vector<int> lVec;
-        for (int i = 0; i < matrix.size(); i++)
-        {
-            for (int j = 0; j < matrix[i].size(); j++)
-            {
-                insort(lVec, matrix[i][j]);
+
+        priority_queue<int, vector<int>, greater<int>> minHeap;
+        int rowLen = matrix.size();
+        int colLen = matrix[0].size();
+
+        for (int i = 0; i < rowLen; i++) {
+            for (int j = 0; j < colLen; j++) {
+                minHeap.push(matrix[i][j]);
             }
         }
 
-        return lVec[k - 1];
+        for (int i = 0; i < k - 1; i++) {
+            minHeap.pop();
+        }
+
+        return minHeap.top();
     }
 };
