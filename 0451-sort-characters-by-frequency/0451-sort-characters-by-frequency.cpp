@@ -14,8 +14,7 @@ public:
 
         vector<pair<char, int>> sortedItems(counterMap.begin(), counterMap.end());
         sort(sortedItems.begin(), sortedItems.end(), lambda);
-
-        for (const auto& eachItem : sortedItems) {
+        for (auto& eachItem : sortedItems) {
             for (int i = 0; i < eachItem.second; i++) {
                 lTemp += eachItem.first;
             }
