@@ -3,20 +3,43 @@ class Solution:
         """
         Do not return anything, modify matrix in-place instead.
         """
+        rowHasZero, colHasZero = False, False 
 
-        rows, cols = [], []
         for i in range(len(matrix)):
-            for j in range(len(matrix[0])):
+            if matrix[i][0] == 0:
+                colHasZero = True
+                break
+
+        for j in range(len(matrix[0])):
+            if matrix[0][j] == 0:
+                rowHasZero = True
+                break
+
+        for i in range(1, len(matrix)):
+            for j in range(1, len(matrix[0])):
                 if matrix[i][j] == 0:
-                    rows.append(i)
-                    cols.append(j)
-
-        for eachRow in rows:
+                    matrix[i][0] = 0
+                    matrix[0][j] = 0
+        
+        
+        def zeroRows(i):
             for j in range(len(matrix[0])):
-                matrix[eachRow][j] = 0
+                matrix[i][j] = 0
 
-        for eachCol in cols:
+        def zeroCols(j):
             for i in range(len(matrix)):
-                matrix[i][eachCol] = 0
+                matrix[i][j] = 0
 
-        return matrix
+        for i in range(1, len(matrix)):
+            if matrix[i][0] == 0:
+                zeroRows(i)
+
+        for j in range(1, len(matrix[0])):
+            if matrix[0][j] == 0:
+                zeroCols(j)
+
+        if rowHasZero:
+            zeroRows(0)
+        
+        if colHasZero:
+            zeroCols(0)
