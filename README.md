@@ -16,6 +16,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Math
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0070-climbing-stairs) |
 | [0268-missing-number](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0268-missing-number) |
 ## Binary Search
 |  |
@@ -82,4 +83,12 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0200-number-of-islands) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0070-climbing-stairs) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
