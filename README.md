@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Array
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0200-number-of-islands) |
 | [0268-missing-number](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0268-missing-number) |
 ## Hash Table
 |  |
@@ -58,12 +59,14 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0111-minimum-depth-of-binary-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0111-minimum-depth-of-binary-tree) |
+| [0200-number-of-islands](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0226-invert-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0543-diameter-of-binary-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0111-minimum-depth-of-binary-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0111-minimum-depth-of-binary-tree) |
+| [0200-number-of-islands](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0226-invert-binary-tree) |
 ## Binary Tree
 |  |
@@ -71,4 +74,12 @@ Collection of LeetCode questions to ace the coding interview!
 | [0111-minimum-depth-of-binary-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0226-invert-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0543-diameter-of-binary-tree) |
+## Union Find
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0200-number-of-islands) |
+## Matrix
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
