@@ -49,6 +49,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Linked List
 |  |
 | ------- |
+| [0021-merge-two-sorted-lists](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0021-merge-two-sorted-lists) |
 | [0141-linked-list-cycle](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0141-linked-list-cycle) |
 | [0203-remove-linked-list-elements](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0206-reverse-linked-list) |
@@ -57,6 +58,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Recursion
 |  |
 | ------- |
+| [0021-merge-two-sorted-lists](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0021-merge-two-sorted-lists) |
 | [0203-remove-linked-list-elements](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0234-palindrome-linked-list) |
