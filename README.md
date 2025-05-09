@@ -24,6 +24,7 @@ Collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0070-climbing-stairs](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0070-climbing-stairs) |
 | [0268-missing-number](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0268-missing-number) |
+| [3859-maximum-product-of-two-digits](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/3859-maximum-product-of-two-digits) |
 ## Binary Search
 |  |
 | ------- |
@@ -40,6 +41,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0268-missing-number](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0451-sort-characters-by-frequency) |
+| [3859-maximum-product-of-two-digits](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/3859-maximum-product-of-two-digits) |
 ## Linked List
 |  |
 | ------- |
