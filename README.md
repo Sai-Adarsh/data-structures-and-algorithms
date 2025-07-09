@@ -38,6 +38,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0268-missing-number) |
+| [0338-counting-bits](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0338-counting-bits) |
 ## Sorting
 |  |
 | ------- |
@@ -117,6 +118,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0070-climbing-stairs) |
+| [0338-counting-bits](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0338-counting-bits) |
 ## Memoization
 |  |
 | ------- |
