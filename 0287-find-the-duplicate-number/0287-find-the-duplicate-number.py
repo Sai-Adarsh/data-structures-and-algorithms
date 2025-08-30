@@ -1,8 +1,9 @@
 class Solution:
     def findDuplicate(self, nums: List[int]) -> int:
         
-        hashMap = collections.Counter(nums)
+        hashMap = collections.Counter()
 
-        for i, j in hashMap.items():
-            if j > 1:
-                return i
+        for each in nums:
+            if hashMap[each] == 1:
+                return each
+            hashMap[each] += 1
