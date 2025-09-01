@@ -17,6 +17,14 @@
 <strong>Explanation:</strong> Intervals [1,4] and [4,5] are considered overlapping.
 </pre>
 
+<p><strong class="example">Example 3:</strong></p>
+
+<pre>
+<strong>Input:</strong> intervals = [[4,7],[1,4]]
+<strong>Output:</strong> [[1,7]]
+<strong>Explanation:</strong> Intervals [1,4] and [4,7] are considered overlapping.
+</pre>
+
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
 
