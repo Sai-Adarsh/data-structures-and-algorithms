@@ -18,6 +18,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0532-k-diff-pairs-in-an-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0792-binary-search](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0792-binary-search) |
+| [0882-peak-index-in-a-mountain-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0882-peak-index-in-a-mountain-array) |
 | [2048-build-array-from-permutation](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/2048-build-array-from-permutation) |
 ## Hash Table
 |  |
@@ -42,6 +43,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0532-k-diff-pairs-in-an-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0792-binary-search](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0792-binary-search) |
+| [0882-peak-index-in-a-mountain-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0882-peak-index-in-a-mountain-array) |
 ## Bit Manipulation
 |  |
 | ------- |
