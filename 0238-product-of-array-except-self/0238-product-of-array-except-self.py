@@ -11,9 +11,8 @@ class Solution:
         for _ in range(len(nums) - 1):
             left.append(left[-1] * nums[_])
         
-        right = [1]
+        right = collections.deque([1])
         for _ in range(len(nums) -1, 0, -1):
-            right.append(right[-1] * nums[_])
+            right.appendleft(right[0] * nums[_])
 
-        right = right[::-1]
         return [i * j for i, j in zip(left, right)]
