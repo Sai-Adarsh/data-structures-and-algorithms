@@ -11,6 +11,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0162-find-peak-element](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0162-find-peak-element) |
 | [0200-number-of-islands](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0200-number-of-islands) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0215-kth-largest-element-in-an-array) |
+| [0217-contains-duplicate](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0238-product-of-array-except-self) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0268-missing-number) |
@@ -29,6 +30,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0141-linked-list-cycle) |
+| [0217-contains-duplicate](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0347-top-k-frequent-elements) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0442-find-all-duplicates-in-an-array) |
@@ -64,6 +66,7 @@ Collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0056-merge-intervals](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0056-merge-intervals) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0215-kth-largest-element-in-an-array) |
+| [0217-contains-duplicate](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
