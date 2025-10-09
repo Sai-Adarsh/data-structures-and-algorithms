@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Array
 |  |
 | ------- |
+| [0031-next-permutation](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0031-next-permutation) |
 | [0056-merge-intervals](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0057-insert-interval) |
 | [0074-search-a-2d-matrix](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0074-search-a-2d-matrix) |
@@ -98,6 +99,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Two Pointers
 |  |
 | ------- |
+| [0031-next-permutation](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0031-next-permutation) |
 | [0075-sort-colors](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0075-sort-colors) |
 | [0141-linked-list-cycle](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0141-linked-list-cycle) |
 | [0151-reverse-words-in-a-string](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0151-reverse-words-in-a-string) |
