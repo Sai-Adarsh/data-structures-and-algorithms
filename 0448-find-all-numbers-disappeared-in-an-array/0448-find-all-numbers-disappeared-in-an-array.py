@@ -3,12 +3,12 @@ class Solution:
 
         hashMap = {}
 
-        for i in nums:
-            hashMap[i] = 1
+        for eachNum in nums:
+            hashMap[eachNum] = 1
 
         arr = []
-        for i in range(1, len(nums) + 1):
-            if i not in hashMap:
-                arr.append(i)
+        for eachNum in range(1, len(nums) + 1):
+            if eachNum not in hashMap:
+                arr.append(eachNum)
         
         return arr
