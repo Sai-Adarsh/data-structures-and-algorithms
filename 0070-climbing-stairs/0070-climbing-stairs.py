@@ -4,10 +4,11 @@ class Solution:
             return 1
         elif n == 2:
             return 2
-        a, b = 1, 2
-        for i in range(2, n):
-            res = a + b
-            a = b
-            b = res
+        else:
+            a, b = 1, 2
+            for i in range(2, n):
+                res = a + b
+                a = b
+                b = res
 
-        return res
+            return res
