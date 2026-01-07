@@ -14,6 +14,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0118-pascals-triangle](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0119-pascals-triangle-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0136-single-number](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0136-single-number) |
 | [0162-find-peak-element](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0162-find-peak-element) |
 | [0200-number-of-islands](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0200-number-of-islands) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0215-kth-largest-element-in-an-array) |
@@ -67,6 +68,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Bit Manipulation
 |  |
 | ------- |
+| [0136-single-number](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0136-single-number) |
 | [0268-missing-number](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0287-find-the-duplicate-number) |
 | [0338-counting-bits](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0338-counting-bits) |
