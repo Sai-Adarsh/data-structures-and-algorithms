@@ -37,6 +37,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0141-linked-list-cycle) |
+| [0208-implement-trie-prefix-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0347-top-k-frequent-elements) |
@@ -114,6 +115,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0151-reverse-words-in-a-string](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0151-reverse-words-in-a-string) |
+| [0208-implement-trie-prefix-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0208-implement-trie-prefix-tree) |
 | [0451-sort-characters-by-frequency](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0451-sort-characters-by-frequency) |
 ## Tree
 |  |
@@ -207,6 +209,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Design
 |  |
 | ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0208-implement-trie-prefix-tree) |
 | [0303-range-sum-query-immutable](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0303-range-sum-query-immutable) |
 ## Prefix Sum
 |  |
@@ -217,4 +220,8 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0494-target-sum](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0494-target-sum) |
+## Trie
+|  |
+| ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0208-implement-trie-prefix-tree) |
 <!---LeetCode Topics End-->
