@@ -16,6 +16,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0136-single-number](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0136-single-number) |
 | [0162-find-peak-element](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0162-find-peak-element) |
+| [0169-majority-element](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0169-majority-element) |
 | [0200-number-of-islands](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0200-number-of-islands) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0217-contains-duplicate) |
@@ -38,6 +39,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0141-linked-list-cycle) |
+| [0169-majority-element](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0169-majority-element) |
 | [0208-implement-trie-prefix-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0268-missing-number) |
@@ -77,6 +79,7 @@ Collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0056-merge-intervals](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0075-sort-colors) |
+| [0169-majority-element](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0268-missing-number) |
@@ -175,6 +178,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Divide and Conquer
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0215-kth-largest-element-in-an-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0240-search-a-2d-matrix-ii) |
 | [0347-top-k-frequent-elements](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0347-top-k-frequent-elements) |
@@ -193,6 +197,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0451-sort-characters-by-frequency) |
 ## Quickselect
