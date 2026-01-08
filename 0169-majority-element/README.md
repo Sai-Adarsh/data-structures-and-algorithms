@@ -17,6 +17,7 @@
 	<li><code>n == nums.length</code></li>
 	<li><code>1 &lt;= n &lt;= 5 * 10<sup>4</sup></code></li>
 	<li><code>-10<sup>9</sup> &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
+	<li>The input is generated such that a majority element will exist in the array.</li>
 </ul>
 
 <p>&nbsp;</p>
