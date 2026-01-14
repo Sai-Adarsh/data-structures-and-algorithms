@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0015-3sum](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0015-3sum) |
+| [0016-3sum-closest](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0016-3sum-closest) |
 | [0031-next-permutation](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0031-next-permutation) |
 | [0056-merge-intervals](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0057-insert-interval) |
@@ -83,6 +84,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0015-3sum](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0015-3sum) |
+| [0016-3sum-closest](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0016-3sum-closest) |
 | [0056-merge-intervals](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0169-majority-element) |
@@ -116,6 +118,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0015-3sum](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0015-3sum) |
+| [0016-3sum-closest](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0016-3sum-closest) |
 | [0031-next-permutation](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0031-next-permutation) |
 | [0075-sort-colors](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0075-sort-colors) |
 | [0141-linked-list-cycle](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0141-linked-list-cycle) |
