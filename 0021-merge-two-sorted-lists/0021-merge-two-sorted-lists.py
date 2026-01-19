@@ -5,19 +5,13 @@
 #         self.next = next
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
-        
         temp = []
-
         while list1:
             bisect.insort(temp, list1.val)
             list1 = list1.next
-        
         while list2:
             bisect.insort(temp, list2.val)
             list2 = list2.next
-        
-        print(temp)
-        
         newNode = None
         retNode = newNode
         if temp:
@@ -27,7 +21,5 @@ class Solution:
             tempNode = ListNode(temp[i])
             newNode.next = tempNode
             newNode = newNode.next
-
-
         return retNode
                 
