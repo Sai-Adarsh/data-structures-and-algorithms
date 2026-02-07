@@ -63,6 +63,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0070-climbing-stairs](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0268-missing-number) |
+| [1290-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/1290-convert-binary-number-in-a-linked-list-to-integer) |
 | [3859-maximum-product-of-two-digits](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/3859-maximum-product-of-two-digits) |
 ## Binary Search
 |  |
@@ -113,6 +114,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0237-delete-node-in-a-linked-list](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0237-delete-node-in-a-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0876-middle-of-the-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0908-middle-of-the-linked-list) |
+| [1290-convert-binary-number-in-a-linked-list-to-integer](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/1290-convert-binary-number-in-a-linked-list-to-integer) |
 ## Recursion
 |  |
 | ------- |
