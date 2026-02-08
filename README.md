@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Array
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0016-3sum-closest) |
 | [0031-next-permutation](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0031-next-permutation) |
@@ -127,6 +128,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0016-3sum-closest) |
 | [0031-next-permutation](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0031-next-permutation) |
@@ -262,4 +264,8 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0208-implement-trie-prefix-tree) |
+## Greedy
+|  |
+| ------- |
+| [0011-container-with-most-water](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0011-container-with-most-water) |
 <!---LeetCode Topics End-->
