@@ -11,6 +11,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0016-3sum-closest](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0016-3sum-closest) |
 | [0031-next-permutation](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0031-next-permutation) |
 | [0041-first-missing-positive](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0041-first-missing-positive) |
+| [0042-trapping-rain-water](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0057-insert-interval) |
@@ -132,6 +133,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0015-3sum](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0016-3sum-closest) |
 | [0031-next-permutation](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0031-next-permutation) |
+| [0042-trapping-rain-water](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0075-sort-colors) |
 | [0141-linked-list-cycle](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0141-linked-list-cycle) |
 | [0151-reverse-words-in-a-string](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0151-reverse-words-in-a-string) |
@@ -194,6 +196,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Dynamic Programming
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0053-maximum-subarray) |
 | [0070-climbing-stairs](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0070-climbing-stairs) |
 | [0118-pascals-triangle](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0118-pascals-triangle) |
@@ -240,6 +243,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0042-trapping-rain-water) |
 | [0234-palindrome-linked-list](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0234-palindrome-linked-list) |
 ## Simulation
 |  |
@@ -268,4 +272,8 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0011-container-with-most-water) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0042-trapping-rain-water) |
 <!---LeetCode Topics End-->
