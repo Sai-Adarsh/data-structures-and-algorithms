@@ -156,6 +156,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0111-minimum-depth-of-binary-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0226-invert-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0543-diameter-of-binary-tree) |
+| [0559-maximum-depth-of-n-ary-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0559-maximum-depth-of-n-ary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0637-average-of-levels-in-binary-tree) |
 ## Depth-First Search
 |  |
@@ -164,6 +165,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0200-number-of-islands](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0226-invert-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0543-diameter-of-binary-tree) |
+| [0559-maximum-depth-of-n-ary-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0559-maximum-depth-of-n-ary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0637-average-of-levels-in-binary-tree) |
 ## Breadth-First Search
 |  |
@@ -171,6 +173,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0111-minimum-depth-of-binary-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0200-number-of-islands](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0226-invert-binary-tree) |
+| [0559-maximum-depth-of-n-ary-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0559-maximum-depth-of-n-ary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0994-rotting-oranges](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0994-rotting-oranges) |
 ## Binary Tree
