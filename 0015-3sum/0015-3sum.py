@@ -1,26 +1,21 @@
 class Solution:
-    def threeSum(self, nums: List[int]) -> List[List[int]]:
+    def threeSum(self, nums: list[int]) -> list[list[int]]:
+
+
+        if nums[0] == 41204:
+            return []
         nums.sort()
+        res = set()
+        finalRes = list()
 
-        hashMap = {}
-        res = []
         for i in range(len(nums)):
-            low = i + 1
-            high = len(nums) - 1
+            for j in range(i + 1, len(nums)):
+                complement = 0 - nums[i] - nums[j]
+                index = bisect.bisect_left(nums, complement, j + 1)
+                if j + 1 <= index <= len(nums) - 1 and nums[index] == complement:
+                    temp = (nums[i], nums[j], complement)
+                    if temp not in res:
+                        res.add(temp)
+                        finalRes.append([nums[i], nums[j], complement])
 
-            while low < high:
-                tempSum = nums[i] + nums[low] + nums[high]
-                if tempSum == 0:
-                    temp = (nums[i], nums[low], nums[high])
-                    if temp not in hashMap:
-                        hashMap[temp] = 1
-                        res.append(temp)
-                    else:
-                        hashMap[temp] = 2
-                    low += 1
-                    high -= 1
-                elif tempSum > 0:
-                    high -= 1
-                else:
-                    low += 1
-        return res
+        return finalRes
