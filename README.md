@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0016-3sum-closest) |
@@ -51,6 +52,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0001-two-sum) |
 | [0041-first-missing-positive](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0041-first-missing-positive) |
 | [0141-linked-list-cycle](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0141-linked-list-cycle) |
 | [0169-majority-element](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0169-majority-element) |
