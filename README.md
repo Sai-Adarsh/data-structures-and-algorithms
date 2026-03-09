@@ -119,6 +119,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0021-merge-two-sorted-lists) |
+| [0023-merge-k-sorted-lists](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0023-merge-k-sorted-lists) |
 | [0141-linked-list-cycle](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0141-linked-list-cycle) |
 | [0203-remove-linked-list-elements](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0206-reverse-linked-list) |
@@ -228,6 +229,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Divide and Conquer
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0023-merge-k-sorted-lists) |
 | [0053-maximum-subarray](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0215-kth-largest-element-in-an-array) |
@@ -237,6 +239,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
@@ -298,6 +301,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Merge Sort
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0023-merge-k-sorted-lists) |
 | [0912-sort-an-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0912-sort-an-array) |
 ## Radix Sort
 |  |
