@@ -46,6 +46,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0745-find-smallest-letter-greater-than-target](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0792-binary-search](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0792-binary-search) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0882-peak-index-in-a-mountain-array) |
+| [0912-sort-an-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0912-sort-an-array) |
 | [0977-squares-of-a-sorted-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0977-squares-of-a-sorted-array) |
 | [0994-rotting-oranges](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0994-rotting-oranges) |
 | [2022-convert-1d-array-into-2d-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/2022-convert-1d-array-into-2d-array) |
@@ -111,6 +112,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0451-sort-characters-by-frequency](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0451-sort-characters-by-frequency) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0532-k-diff-pairs-in-an-array) |
+| [0912-sort-an-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0912-sort-an-array) |
 | [0977-squares-of-a-sorted-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0977-squares-of-a-sorted-array) |
 | [3859-maximum-product-of-two-digits](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/3859-maximum-product-of-two-digits) |
 ## Linked List
@@ -227,6 +229,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0215-kth-largest-element-in-an-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0215-kth-largest-element-in-an-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0240-search-a-2d-matrix-ii) |
 | [0347-top-k-frequent-elements](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0347-top-k-frequent-elements) |
+| [0912-sort-an-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0912-sort-an-array) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -234,11 +237,13 @@ Collection of LeetCode questions to ace the coding interview!
 | [0347-top-k-frequent-elements](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0451-sort-characters-by-frequency](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0451-sort-characters-by-frequency) |
+| [0912-sort-an-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0912-sort-an-array) |
 ## Bucket Sort
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0451-sort-characters-by-frequency) |
+| [0912-sort-an-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0912-sort-an-array) |
 ## Counting
 |  |
 | ------- |
@@ -286,4 +291,16 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0042-trapping-rain-water) |
+## Merge Sort
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0912-sort-an-array) |
+## Radix Sort
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0912-sort-an-array) |
+## Counting Sort
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0912-sort-an-array) |
 <!---LeetCode Topics End-->
