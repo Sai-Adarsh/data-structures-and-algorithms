@@ -141,6 +141,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0015-3sum](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0018-4sum) |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0031-next-permutation](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0031-next-permutation) |
 | [0042-trapping-rain-water](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0075-sort-colors) |
@@ -157,6 +158,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## String
 |  |
 | ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0151-reverse-words-in-a-string](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0151-reverse-words-in-a-string) |
 | [0165-compare-version-numbers](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0165-compare-version-numbers) |
 | [0208-implement-trie-prefix-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0208-implement-trie-prefix-tree) |
@@ -305,4 +307,8 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0912-sort-an-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0912-sort-an-array) |
+## String Matching
+|  |
+| ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 <!---LeetCode Topics End-->
