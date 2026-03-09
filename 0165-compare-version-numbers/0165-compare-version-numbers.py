@@ -8,32 +8,24 @@ class Solution:
             if tempNum == '':
                 tempNum = 0
             version1[i] = tempNum
-
         for i in range(len(version2)):
             tempNum = version2[i]
             tempNum = tempNum.lstrip('0')
             if tempNum == '':
                 tempNum = 0
             version2[i] = tempNum
-
-        print("len(version2) < len(version1)", len(version2), len(version1), len(version2) - len(version1))
         if len(version1) > len(version2):
             diff = len(version1) - len(version2)
             for _ in range(diff):
                 version2.append('0')
         elif len(version2) > len(version1):
             diff = len(version2) - len(version1)
-            print("diff: ", diff)
             for _ in range(diff):
-                print("iteration: ", _)
                 version1.append('0')
-
-        print(version1, version2)
         for i, j in zip(version1, version2):
             print(i, j)
             if int(i) > int(j):
                 return 1
             elif int(i) < int(j):
                 return -1
-    
         return 0
