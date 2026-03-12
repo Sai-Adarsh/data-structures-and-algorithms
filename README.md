@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0001-two-sum](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0011-container-with-most-water) |
+| [0014-longest-common-prefix](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0014-longest-common-prefix) |
 | [0015-3sum](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0018-4sum) |
@@ -161,6 +162,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## String
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0014-longest-common-prefix) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0151-reverse-words-in-a-string](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0151-reverse-words-in-a-string) |
 | [0165-compare-version-numbers](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0165-compare-version-numbers) |
@@ -292,6 +294,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Trie
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0014-longest-common-prefix) |
 | [0208-implement-trie-prefix-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0208-implement-trie-prefix-tree) |
 ## Greedy
 |  |
