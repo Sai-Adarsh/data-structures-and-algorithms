@@ -50,6 +50,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0912-sort-an-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0912-sort-an-array) |
 | [0977-squares-of-a-sorted-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0977-squares-of-a-sorted-array) |
 | [0994-rotting-oranges](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0994-rotting-oranges) |
+| [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 | [2022-convert-1d-array-into-2d-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/2022-convert-1d-array-into-2d-array) |
 | [2048-build-array-from-permutation](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/2048-build-array-from-permutation) |
 ## Hash Table
@@ -68,6 +69,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0451-sort-characters-by-frequency](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0451-sort-characters-by-frequency) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0532-k-diff-pairs-in-an-array) |
+| [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 ## Math
 |  |
 | ------- |
@@ -169,6 +171,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0208-implement-trie-prefix-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0242-valid-anagram) |
 | [0451-sort-characters-by-frequency](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0451-sort-characters-by-frequency) |
+| [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 ## Tree
 |  |
 | ------- |
