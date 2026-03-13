@@ -175,6 +175,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0094-binary-tree-inorder-traversal](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0094-binary-tree-inorder-traversal) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0144-binary-tree-preorder-traversal) |
+| [0145-binary-tree-postorder-traversal](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0145-binary-tree-postorder-traversal) |
 | [0226-invert-binary-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0226-invert-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0543-diameter-of-binary-tree) |
 | [0559-maximum-depth-of-n-ary-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0559-maximum-depth-of-n-ary-tree) |
@@ -185,6 +186,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0094-binary-tree-inorder-traversal](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0094-binary-tree-inorder-traversal) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0144-binary-tree-preorder-traversal) |
+| [0145-binary-tree-postorder-traversal](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0145-binary-tree-postorder-traversal) |
 | [0200-number-of-islands](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0226-invert-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0543-diameter-of-binary-tree) |
@@ -205,6 +207,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0094-binary-tree-inorder-traversal](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0094-binary-tree-inorder-traversal) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0144-binary-tree-preorder-traversal) |
+| [0145-binary-tree-postorder-traversal](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0145-binary-tree-postorder-traversal) |
 | [0226-invert-binary-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0226-invert-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0543-diameter-of-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0637-average-of-levels-in-binary-tree) |
@@ -279,6 +282,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0042-trapping-rain-water](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0042-trapping-rain-water) |
 | [0094-binary-tree-inorder-traversal](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0144-binary-tree-preorder-traversal) |
+| [0145-binary-tree-postorder-traversal](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0145-binary-tree-postorder-traversal) |
 | [0234-palindrome-linked-list](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0234-palindrome-linked-list) |
 ## Simulation
 |  |
