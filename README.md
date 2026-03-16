@@ -20,6 +20,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0057-insert-interval](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0057-insert-interval) |
 | [0074-search-a-2d-matrix](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0075-sort-colors) |
+| [0079-word-search](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0079-word-search) |
 | [0118-pascals-triangle](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0119-pascals-triangle-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -166,6 +167,7 @@ Collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0014-longest-common-prefix](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0014-longest-common-prefix) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0079-word-search](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0079-word-search) |
 | [0151-reverse-words-in-a-string](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0151-reverse-words-in-a-string) |
 | [0165-compare-version-numbers](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0165-compare-version-numbers) |
 | [0208-implement-trie-prefix-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0208-implement-trie-prefix-tree) |
@@ -187,6 +189,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0079-word-search) |
 | [0094-binary-tree-inorder-traversal](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0094-binary-tree-inorder-traversal) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0144-binary-tree-preorder-traversal) |
@@ -225,6 +228,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0240-search-a-2d-matrix-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
@@ -308,6 +312,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Backtracking
 |  |
 | ------- |
+| [0079-word-search](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0079-word-search) |
 | [0494-target-sum](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0494-target-sum) |
 ## Trie
 |  |
