@@ -44,6 +44,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0494-target-sum](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0494-target-sum) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0532-k-diff-pairs-in-an-array) |
+| [0695-max-area-of-island](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0695-max-area-of-island) |
 | [0704-binary-search](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0704-binary-search) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0792-binary-search](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0792-binary-search) |
@@ -199,6 +200,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0543-diameter-of-binary-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0543-diameter-of-binary-tree) |
 | [0559-maximum-depth-of-n-ary-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0559-maximum-depth-of-n-ary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0637-average-of-levels-in-binary-tree) |
+| [0695-max-area-of-island](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0695-max-area-of-island) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -208,6 +210,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0226-invert-binary-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0226-invert-binary-tree) |
 | [0559-maximum-depth-of-n-ary-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0559-maximum-depth-of-n-ary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0637-average-of-levels-in-binary-tree) |
+| [0695-max-area-of-island](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0695-max-area-of-island) |
 | [0994-rotting-oranges](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0994-rotting-oranges) |
 ## Binary Tree
 |  |
@@ -232,6 +235,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0200-number-of-islands](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0240-search-a-2d-matrix-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0695-max-area-of-island](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0695-max-area-of-island) |
 | [0994-rotting-oranges](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0994-rotting-oranges) |
 | [2022-convert-1d-array-into-2d-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/2022-convert-1d-array-into-2d-array) |
 ## Dynamic Programming
@@ -348,4 +352,5 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0695-max-area-of-island) |
 <!---LeetCode Topics End-->
