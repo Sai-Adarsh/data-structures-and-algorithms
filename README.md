@@ -344,4 +344,8 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+## Union-Find
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
