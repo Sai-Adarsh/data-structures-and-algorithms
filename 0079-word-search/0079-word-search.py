@@ -1,7 +1,5 @@
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
-
-        
         def backTracking(i, j, word):
             if not word:
                 return True
