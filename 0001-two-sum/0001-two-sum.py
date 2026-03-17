@@ -1,12 +1,12 @@
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        originalIndices = defaultdict(list)
+        indicesDict = defaultdict(list)
         for i in range(len(nums)):
-            originalIndices[nums[i]].append(i)
-
+            indicesDict[nums[i]].append(i)
+        
         nums.sort()
         for i in range(len(nums)):
-            findTarget = target - nums[i]
-            index = bisect.bisect_left(nums, findTarget, i)
-            if i <= index <= len(nums) - 1 and nums[index] == findTarget:
-                return [originalIndices[nums[i]].pop(), originalIndices[findTarget].pop()]
+            complement = target - nums[i]
+            index = bisect.bisect_left(nums, complement, i + 1)
+            if i + 1 <= index <= len(nums) - 1 and nums[index] == complement:
+                return [indicesDict[nums[i]].pop(0), indicesDict[nums[index]].pop(0)]
