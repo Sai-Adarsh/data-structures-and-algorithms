@@ -12,7 +12,7 @@ class Solution:
                 nums[mid], nums[right] = nums[right], nums[mid]
                 right -= 1
             elif nums[mid] == 0:
-                nums[left], nums[mid] = nums[mid], nums[left]
+                nums[mid], nums[left] = nums[left], nums[mid]
                 mid += 1
                 left += 1
             else:
