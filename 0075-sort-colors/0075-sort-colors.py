@@ -13,7 +13,7 @@ class Solution:
                 right -= 1
             elif nums[mid] == 0:
                 nums[mid], nums[left] = nums[left], nums[mid]
-                mid += 1
                 left += 1
+                mid += 1
             else:
                 mid += 1
