@@ -1,22 +1,25 @@
 class Solution:
     def threeSum(self, nums: list[int]) -> list[list[int]]:
+        ans = set()
+        res = list()
         nums.sort()
-        resSet = set()
-        resList = list()
+
+        # -4, -1, -1, 0, 1, 2
+
         for i in range(len(nums)):
-            low = i + 1
-            high = len(nums) - 1
-            while low < high:
-                total = nums[i] + nums[low] + nums[high]
-                if total == 0:
-                    temp = (nums[i], nums[low], nums[high])
-                    if temp not in resSet:
-                        resSet.add(temp)
-                        resList.append([nums[i], nums[low], nums[high]])
-                    low += 1
-                    high -= 1
-                elif total > 0:
-                    high -= 1
+            complement = 0 - nums[i]
+            left = i + 1
+            right = len(nums) - 1
+            while left < right:
+                if nums[left] + nums[right] > complement:
+                    right -= 1
+                elif nums[left] + nums[right] < complement:
+                    left += 1
                 else:
-                    low += 1
-        return resList
+                    temp = (nums[i], nums[left], nums[right])
+                    if temp not in ans:
+                        ans.add(temp)
+                        res.append(temp)
+                    left += 1
+                    right -= 1
+        return res
