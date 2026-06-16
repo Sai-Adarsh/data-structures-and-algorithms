@@ -33,6 +33,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0169-majority-element](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0189-rotate-array) |
 | [0200-number-of-islands](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0200-number-of-islands) |
+| [0209-minimum-size-subarray-sum](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0209-minimum-size-subarray-sum) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0216-combination-sum-iii) |
 | [0217-contains-duplicate](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0217-contains-duplicate) |
@@ -89,6 +90,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0074-search-a-2d-matrix](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0074-search-a-2d-matrix) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0162-find-peak-element) |
+| [0209-minimum-size-subarray-sum](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0209-minimum-size-subarray-sum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0287-find-the-duplicate-number) |
@@ -323,6 +325,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Prefix Sum
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0238-product-of-array-except-self) |
 | [0303-range-sum-query-immutable](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0303-range-sum-query-immutable) |
 ## Backtracking
@@ -368,4 +371,8 @@ Collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0200-number-of-islands](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0200-number-of-islands) |
 | [0695-max-area-of-island](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0695-max-area-of-island) |
+## Sliding Window
+|  |
+| ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0209-minimum-size-subarray-sum) |
 <!---LeetCode Topics End-->
