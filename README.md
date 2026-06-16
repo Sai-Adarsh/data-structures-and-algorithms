@@ -34,6 +34,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0189-rotate-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0189-rotate-array) |
 | [0200-number-of-islands](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0200-number-of-islands) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0215-kth-largest-element-in-an-array) |
+| [0216-combination-sum-iii](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0216-combination-sum-iii) |
 | [0217-contains-duplicate](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0238-product-of-array-except-self) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0240-search-a-2d-matrix-ii) |
@@ -328,6 +329,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0039-combination-sum](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0039-combination-sum) |
 | [0079-word-search](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0090-subsets-ii) |
+| [0216-combination-sum-iii](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0216-combination-sum-iii) |
 | [0494-target-sum](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0494-target-sum) |
 ## Trie
 |  |
