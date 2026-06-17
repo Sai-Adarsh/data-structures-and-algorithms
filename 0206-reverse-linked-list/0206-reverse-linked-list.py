@@ -10,6 +10,7 @@ class Solution:
 
         prev = None
         curr = head
+        ahead = head
 
         while curr:
             ahead = curr.next
