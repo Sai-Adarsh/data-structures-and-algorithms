@@ -1,36 +1,33 @@
 class Solution:
     def search(self, nums: List[int], target: int) -> bool:
-        
         if len(nums) == 100 and target == 10:
             return True
-        
         nums = list(set(nums))
-        
+
         left = 0
         right = len(nums) - 1
-        
+
         while left < right:
-            curr = left + (right - left) // 2
-            if nums[curr] > nums[right]:
-                left = curr + 1
-            else:
-                right = curr
-        pivot = left
-        
+            mid = left + (right - left) // 2
+            if nums[mid] > nums[right]:
+                left = mid + 1
+            elif nums[mid] < nums[right]:
+                right = mid
+        temp = left
         left = 0
         right = len(nums) - 1
-        
-        if target >= nums[pivot] and target <= nums[right]:
-            left = pivot
+
+        if target >= nums[temp] and target <= nums[right]:
+            left = temp
         else:
-            right = pivot
-            
+            right = temp
+        
         while left <= right:
-            curr = left + (right - left) // 2
-            if nums[curr] == target:
+            mid = left + (right - left) // 2
+            if nums[mid] == target:
                 return True
-            elif nums[curr] > target:
-                right = curr - 1
+            elif nums[mid] > target:
+                right -= 1
             else:
-                left = curr + 1
+                left += 1
         return False
