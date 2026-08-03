@@ -13,6 +13,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0016-3sum-closest](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0018-4sum) |
 | [0031-next-permutation](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0031-next-permutation) |
+| [0033-search-in-rotated-sorted-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0033-search-in-rotated-sorted-array) |
 | [0039-combination-sum](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0039-combination-sum) |
 | [0041-first-missing-positive](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0041-first-missing-positive) |
 | [0042-trapping-rain-water](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0042-trapping-rain-water) |
@@ -89,6 +90,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Binary Search
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0033-search-in-rotated-sorted-array) |
 | [0074-search-a-2d-matrix](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0074-search-a-2d-matrix) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0162-find-peak-element) |
