@@ -1,23 +1,28 @@
 class Solution:
     def fourSum(self, nums: List[int], target: int) -> List[List[int]]:
+        res = []
         nums.sort()
-        resSet = set()
-        resList = list()
+
         for i in range(len(nums)):
             for j in range(i + 1, len(nums)):
-                low = j + 1
-                high = len(nums) - 1
-                while low < high:
-                    total = nums[i] + nums[j] + nums[low] + nums[high]
-                    if total == target:
-                        temp = (nums[i], nums[j], nums[low], nums[high])
-                        if temp not in resSet:
-                            resSet.add(temp)
-                            resList.append([nums[i], nums[j], nums[low], nums[high]])
-                        low += 1
-                        high -= 1
-                    elif total > target:
-                        high -= 1
+                complement = target - (nums[i] + nums[j])
+                # target = 10
+                # 2, 4 = 2 + 4 = 6
+                # 10 - (2 + 4)
+                # 10 - (6)
+                # 4
+                left = j + 1
+                right = len(nums) - 1
+                while left < right:
+                    currSum = nums[left] + nums[right]
+                    if currSum > complement:
+                        right -= 1
+                    elif currSum < complement:
+                        left += 1
                     else:
-                        low += 1
-        return resList
+                        temp = sorted([nums[i], nums[j], nums[left], nums[right]])
+                        if temp not in res:
+                            res.append(temp)
+                        right -= 1
+                        left += 1
+        return res
