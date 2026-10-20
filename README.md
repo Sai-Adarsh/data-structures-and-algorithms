@@ -128,6 +128,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0217-contains-duplicate](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0268-missing-number) |
+| [0295-find-median-from-data-stream](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0451-sort-characters-by-frequency](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0451-sort-characters-by-frequency) |
@@ -175,6 +176,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0189-rotate-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0234-palindrome-linked-list) |
 | [0287-find-the-duplicate-number](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0287-find-the-duplicate-number) |
+| [0295-find-median-from-data-stream](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0295-find-median-from-data-stream) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0876-middle-of-the-linked-list](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0876-middle-of-the-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0908-middle-of-the-linked-list) |
@@ -299,6 +301,7 @@ Collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0215-kth-largest-element-in-an-array) |
+| [0295-find-median-from-data-stream](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0451-sort-characters-by-frequency](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0451-sort-characters-by-frequency) |
@@ -337,6 +340,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0208-implement-trie-prefix-tree) |
+| [0295-find-median-from-data-stream](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0295-find-median-from-data-stream) |
 | [0303-range-sum-query-immutable](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0303-range-sum-query-immutable) |
 ## Prefix Sum
 |  |
@@ -395,4 +399,8 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0056-merge-intervals](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0056-merge-intervals) |
+## Data Stream
+|  |
+| ------- |
+| [0295-find-median-from-data-stream](https://github.com/Sai-Adarsh/data-structures-and-algorithms/tree/master/0295-find-median-from-data-stream) |
 <!---LeetCode Topics End-->
